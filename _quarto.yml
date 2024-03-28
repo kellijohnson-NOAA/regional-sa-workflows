@@ -3,41 +3,29 @@ project:
   output-dir: docs
 
 book:
-  title: An example tech memo
-  subtitle: The subtitle
-  date: January 2023
+  title: Summary of U.S. Stock Assessment Workflows
+  subtitle: Tools and Templates
+  date: April 2024
   downloads: [pdf, docx]
   author:
-  - name: Jane Doe
+  - name: Samantha Schiano
     affiliations:
-      - id: nwfsc-cb
-        name: Northwest Fisheries Science Center
-        department: Conservation Biology Division
+      - id: ecs
+        name: ECS Federal in Support of 
+        department: NOAA Fisheries Office of Science and Technology
         address: 
-          - 2725 Montlake Boulevard East
-          - Seattle, Washington 98112
-      - id: uw-safs
-        name: University of Washington
-        department: School of Aquatic and Fisheries Sciences
-  - name: Eva Nováková
-    affiliations:
-      - ref: uw-safs
-  - name: Matti Meikäläinen
-    email: matti@jy.fi
-    affiliations:
-      - name: University of Kemijärvi
-        department: Department of Biological and Environmental Science
-        address: Kylmäniementie 79, 98120, KEMIJÄRVI, Finland
-  - name: Ashok Kumar
-    affiliations:
-      - name: University of Minnesota
-        department: Department of Mathematics
-      - name: HØnefoss Institute
-        address: R Tradição 35, Portugal 2950-726
+          - 1315 East West Highway
+          - Silver Spring, MD 20910
   chapters:
     - index.qmd
-    - text/Chapter1.qmd
-    - text/conclusion.qmd
+    - text/summary.qmd
+    - text/AFSC-workflow.qmd
+    - text/NEFSC-workflow.qmd
+    - text/NWFSC-workflow.qmd
+    - text/PIFSC-workflow.qmd
+    - text/SEFSC-workflow.qmd
+    - text/SWFSC-workflow.qmd
+    - text/conclusions.qmd
     - text/references.qmd
 
   site-url: https://nmfs-opensci.github.io/NOAA-tech-memo-template/
@@ -59,15 +47,12 @@ format:
     toc-depth: 2
     reference-doc: template.docx
     always_allow_html: true
-  html:
-    theme: cosmo
-    toc: true
-    toc-depth: 3
   titlepage-pdf:
     documentclass: scrbook
     classoption: ["oneside", "open=any"]
     titlepage: "plain"
-
+    keep-tex: true
+    
 metadata-files:
   - _frontmatter.yml
   
