@@ -1,6 +1,6 @@
 # Citation {.unnumbered}
 
-EE Holmes, 2022. Quarto Report Template. Northwest Fisheries Science Center.
+Schiano, S. 2024. Summary of U.S. Stock Assessment Workflows: Tools and Templates. NOAA Fisheries Office of Science and Technology.
 
 
 ```{=openxml}
