@@ -1,0 +1,28 @@
+# Alaska Fisheries Science Center (AFSC)
+
+## Resources
+
+AFSC takes advantage of multiple packages and templates built to help produce stock assessment reports. They have also built their own tools to improve and streamline their workflows. These tools include:
+
+  -   afscdata
+  -   afscassess
+  -   safe
+  -   r4ss
+
+### afscdata
+
+This R package was developed by scientists at AFSC in order to extract fishery data to use in analyses and stock assessment models. Various functions queries data from a connected database. There are various functions dependent on the target species which extract .csv files with a time stamp of the query.
+
+## Workflow
+
+  -   Full assessments vs. partial assessments vs. model review
+  
+    -   Partial assessments = harvest projections
+    
+  -   Operational & stock monitoring update
+  
+  -   Annual and bi-annual assessments (+ some every 4 yrs)
+  
+  -   bespoke and SS models
+  
+#### Assessment Outlines

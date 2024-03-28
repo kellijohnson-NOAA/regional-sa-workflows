@@ -1,0 +1,12 @@
+## Conclusions
+
+  - Conclusions about how workflows operate in the U.S.
+  - Additional hope for greater look into the inputs and pulling together the entire stock assessment workflow process
+  
+## Future Work
+
+  - Discuss the upcoming/in development tool for automated workflows and plan for the future including stock assessment modelling for the future
+
+```{=openxml}
+<w:p><w:r><w:br w:type="page"/></w:r></w:p>
+```

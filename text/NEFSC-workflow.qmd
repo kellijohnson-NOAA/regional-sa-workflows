@@ -1,0 +1,17 @@
+# Northeast Fisheries Science Center (NEFSC)
+
+  - Summary of their process and broken down by subregion if applicable
+  
+  - Discuss impact of multiple fishery management councils and other RFMOs for document guidance and content delegation
+
+## Resources
+
+  - table of current resources that guide their workflow?
+
+## Workflow/TOR
+
+  - Discussion of the process for the workflow in the region - described like methods 
+  
+    - Subsections for 508 compliance and tools?
+    
+  Adding example citation in a sentence to test using them and allowing render [@clark1993].
