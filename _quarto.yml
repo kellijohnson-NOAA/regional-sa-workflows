@@ -19,7 +19,8 @@ book:
   chapters:
     - index.qmd
     - text/summary.qmd
-    - general-workflow.qmd
+    - text/general-workflow.qmd
+    - text/stock-assessment-models.qmd
     - text/AFSC-workflow.qmd
     - text/NEFSC-workflow.qmd
     - text/NWFSC-workflow.qmd
@@ -29,8 +30,8 @@ book:
     - text/conclusions.qmd
     - text/references.qmd
 
-  site-url: https://nmfs-opensci.github.io/NOAA-tech-memo-template/
-  repo-url: https://github.com/nmfs-opensci/NOAA-tech-memo-template
+  # site-url: 
+  repo-url: https://github.com/Schiano-NOAA/regional-sa-workflows
   repo-actions: [edit, source, issue]
   search: true
 
@@ -48,6 +49,10 @@ format:
     toc-depth: 2
     reference-doc: template.docx
     always_allow_html: true
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
   titlepage-pdf:
     documentclass: scrbook
     classoption: ["oneside", "open=any"]
