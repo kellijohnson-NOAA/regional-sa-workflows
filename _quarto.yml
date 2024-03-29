@@ -30,7 +30,7 @@ book:
     - text/conclusions.qmd
     - text/references.qmd
 
-  # site-url: 
+  site-url: https://schiano-noaa.github.io/regional-sa-workflows/
   repo-url: https://github.com/Schiano-NOAA/regional-sa-workflows
   repo-actions: [edit, source, issue]
   search: true
