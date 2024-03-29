@@ -7,8 +7,16 @@
 ## Resources
 
   - table of current resources that guide their workflow?
+  
+**Tools to describe:**
 
-## Workflow/TOR
+  -   r4ss
+  -   sa4ss
+  -   SASINF
+  -   Other tools used in process?
+
+
+## Workflow/TOR(s)
 
   - Discussion of the process for the workflow in the region - described like methods 
   

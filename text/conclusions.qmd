@@ -1,6 +1,11 @@
 ## Conclusions
 
   - Conclusions about how workflows operate in the U.S.
+  
+    - Both pros and pitfalls of current workflows
+    
+    - Incorporating perspectives from regional scientists?
+    
   - Additional hope for greater look into the inputs and pulling together the entire stock assessment workflow process
   
 ## Future Work

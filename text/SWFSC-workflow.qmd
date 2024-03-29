@@ -8,6 +8,16 @@
 
   - table of current resources that guide their workflow?
 
+**Tools to describe:**
+
+  - [Stock assessment template](https://github.com/melissamonk-NOAA/StockAssessment_template)
+  
+  - [R process output](https://github.com/peterkuriyama/cpsassessment/blob/main/R/process_output.R)
+  
+  - [swfscMisc](https://github.com/EricArcher/swfscMisc/tree/master)
+  
+  - r4ss*
+
 ## Workflow/TOR
 
   - Discussion of the process for the workflow in the region - described like methods 

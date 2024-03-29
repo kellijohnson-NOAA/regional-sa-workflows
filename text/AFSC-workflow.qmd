@@ -11,13 +11,21 @@ AFSC takes advantage of multiple packages and templates built to help produce st
 
 ### afscdata
 
-This R package was developed by scientists at AFSC in order to extract fishery data to use in analyses and stock assessment models. Various functions queries data from a connected database. There are various functions dependent on the target species which extract .csv files with a time stamp of the query.
+[Github Repository](https://github.com/afsc-assessments/afscdata/)
+
+This R package was developed in order to extract fishery data for use in analyses and stock assessment models. Various functions query data from a connected database. There are various functions dependent on the target species which extract .csv files with a time stamp of the query.
+
+**Other tools to describe:**
+
+  -   afscassess
+  
+  -   safe reporting
 
 ## Workflow
 
   -   Full assessments vs. partial assessments vs. model review
   
-    -   Partial assessments = harvest projections
+    -   Add'l harvest projections
     
   -   Operational & stock monitoring update
   
@@ -26,3 +34,5 @@ This R package was developed by scientists at AFSC in order to extract fishery d
   -   bespoke and SS models
   
 #### Assessment Outlines
+
+  -   Outlines as agreed upon in the TOR from council

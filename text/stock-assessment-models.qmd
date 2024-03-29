@@ -1,0 +1,17 @@
+# Stock Assessment Models
+
+[Short descriptions of commonly used stock assessment models within the U.S. including acknowledgement of smaller used models and FIMS for the future]
+
+  - WHAM
+  
+  - SS
+  
+  - BAM
+  
+  - ASAP
+  
+  - AMAK
+  
+  - Bespoke
+  
+  - FIMS

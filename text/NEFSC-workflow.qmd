@@ -7,11 +7,19 @@
 ## Resources
 
   - table of current resources that guide their workflow?
+  
+  - Alternative is descriptions of different resources used in the process as described in the AFSC section example
+  
+**Tools to describe:**
+  
+  -   ASAPplots
 
 ## Workflow/TOR
 
   - Discussion of the process for the workflow in the region - described like methods 
   
-    - Subsections for 508 compliance and tools?
+    - Subsections for 508 compliance efforts and tools?
+    
+  - 
     
   Adding example citation in a sentence to test using them and allowing render [@clark1993].

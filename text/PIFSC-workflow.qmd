@@ -7,6 +7,12 @@
 ## Resources
 
   - table of current resources that guide their workflow?
+  
+**Tools to describe:**
+
+  - [bottomfish report script](https://github.com/PIFSCstockassessments/AmSam-Bottomfish-2023/tree/master/Scripts/03_Report%20scripts)
+  
+  - Stock assessment report repo
 
 ## Workflow/TOR
 
