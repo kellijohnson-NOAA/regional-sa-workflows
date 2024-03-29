@@ -10,6 +10,14 @@
   
 **Tools to describe:**
 
+  - r4ss*
+  
+  - SEDAR-Assessment-Report template (GOM)
+  
+  - Latex template (SA)
+  
+  - 
+
 ## Workflow/TOR(s)
 
   - Discussion of the process for the workflow in the region - described like methods 
