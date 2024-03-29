@@ -1,0 +1,252 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Summary of U.S. Stock Assessment Workflows",
+    "section": "",
+    "text": "Citation\nSchiano, S. 2024. Summary of U.S. Stock Assessment Workflows: Tools and Templates. NOAA Fisheries Office of Science and Technology.",
+    "crumbs": [
+      "Citation"
+    ]
+  },
+  {
+    "objectID": "text/summary.html",
+    "href": "text/summary.html",
+    "title": "1  Summary",
+    "section": "",
+    "text": "Developing and producing a stock assessment report requires a considerable amount of data consolidation, analysis, and research. Reports can range from 10 pages to well over 300, but the goal of the process remains to provide management advice with the current and projected status of the stock, catches, and other important parameters to ensure its sustainability. There have been many efforts done to improve the reproducibility of workflows and reduce time it takes to produce these reports. So far,improvements and efforts have ranged considerably by region of the U.S. Specifically, each of the seven regional fishery science centers across the U.S. have their own workflows to assess a stock and produce its report. Many of these workflows are guided by requirements from fishery management councils and other involved managing bodies that utilize these reports to delegate fishery regulations.\nWorkflows across the country not only range from region to region, but from scientist to scientist. There is no current standardized or accepted best practice for producing a stock assessment report. Some centers rely on the use of latex, a common software to produce documents with in-text calculations, while others utilize more recently developed programs like Rmarkdown and quarto, which both use latex as a basis for their production. Others utilize the capacity of Microsoft word which restricts the reproducibility of a report as well as increases work time since figures, tables, and other associated resources must be compiled outside of the word document.\nDescription of interaction and list of fishery management coucils across the US",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "text/general-workflow.html",
+    "href": "text/general-workflow.html",
+    "title": "2  General Stock Assessment Workflow Structure",
+    "section": "",
+    "text": "Description of stock assessment workflows from input to bringing the report to the SSC and council(s) for evaluation and adoption of formal management measures resulting from recommendations",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>General Stock Assessment Workflow Structure</span>"
+    ]
+  },
+  {
+    "objectID": "text/stock-assessment-models.html",
+    "href": "text/stock-assessment-models.html",
+    "title": "3  Stock Assessment Models",
+    "section": "",
+    "text": "[Short descriptions of commonly used stock assessment models within the U.S. including acknowledgement of smaller used models and FIMS for the future]\n\nWHAM\nSS\nBAM\nASAP\nAMAK\nBespoke\nFIMS",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Stock Assessment Models</span>"
+    ]
+  },
+  {
+    "objectID": "text/AFSC-workflow.html",
+    "href": "text/AFSC-workflow.html",
+    "title": "4  Alaska Fisheries Science Center (AFSC)",
+    "section": "",
+    "text": "4.1 Resources\nAFSC takes advantage of multiple packages and templates built to help produce stock assessment reports. They have also built their own tools to improve and streamline their workflows. These tools include:",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Alaska Fisheries Science Center (AFSC)</span>"
+    ]
+  },
+  {
+    "objectID": "text/AFSC-workflow.html#resources",
+    "href": "text/AFSC-workflow.html#resources",
+    "title": "4  Alaska Fisheries Science Center (AFSC)",
+    "section": "",
+    "text": "afscdata\nafscassess\nsafe\nr4ss\n\n\n4.1.1 afscdata\nGithub Repository\nThis R package was developed in order to extract fishery data for use in analyses and stock assessment models. Various functions query data from a connected database. There are various functions dependent on the target species which extract .csv files with a time stamp of the query.\nOther tools to describe:\n\nafscassess\nsafe reporting",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Alaska Fisheries Science Center (AFSC)</span>"
+    ]
+  },
+  {
+    "objectID": "text/AFSC-workflow.html#workflow",
+    "href": "text/AFSC-workflow.html#workflow",
+    "title": "4  Alaska Fisheries Science Center (AFSC)",
+    "section": "4.2 Workflow",
+    "text": "4.2 Workflow\n\nFull assessments vs. partial assessments vs. model review\n\n-   Add'l harvest projections\n\nOperational & stock monitoring update\nAnnual and bi-annual assessments (+ some every 4 yrs)\nbespoke and SS models\n\n\n4.2.0.1 Assessment Outlines\n\nOutlines as agreed upon in the TOR from council",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Alaska Fisheries Science Center (AFSC)</span>"
+    ]
+  },
+  {
+    "objectID": "text/NEFSC-workflow.html",
+    "href": "text/NEFSC-workflow.html",
+    "title": "5  Northeast Fisheries Science Center (NEFSC)",
+    "section": "",
+    "text": "5.1 Resources\nTools to describe:",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Northeast Fisheries Science Center (NEFSC)</span>"
+    ]
+  },
+  {
+    "objectID": "text/NEFSC-workflow.html#resources",
+    "href": "text/NEFSC-workflow.html#resources",
+    "title": "5  Northeast Fisheries Science Center (NEFSC)",
+    "section": "",
+    "text": "table of current resources that guide their workflow?\nAlternative is descriptions of different resources used in the process as described in the AFSC section example\n\n\n\nASAPplots",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Northeast Fisheries Science Center (NEFSC)</span>"
+    ]
+  },
+  {
+    "objectID": "text/NEFSC-workflow.html#workflowtor",
+    "href": "text/NEFSC-workflow.html#workflowtor",
+    "title": "5  Northeast Fisheries Science Center (NEFSC)",
+    "section": "5.2 Workflow/TOR",
+    "text": "5.2 Workflow/TOR\n\nDiscussion of the process for the workflow in the region - described like methods\n\nSubsections for 508 compliance efforts and tools?\n\n\n\nAdding example citation in a sentence to test using them and allowing render (Clark 1993).\n\n\n\n\nClark, W. G. 1993. “The Effect of Recruitment Variability on the Choice of a Target Level of Spawning Biomass Per Recruit.” In, 233246. Alaska Sea Grant College Program AKSG9302.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Northeast Fisheries Science Center (NEFSC)</span>"
+    ]
+  },
+  {
+    "objectID": "text/NWFSC-workflow.html",
+    "href": "text/NWFSC-workflow.html",
+    "title": "6  Northwest Fisheries Science Center (NWFSC)",
+    "section": "",
+    "text": "6.1 Resources\nTools to describe:",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Northwest Fisheries Science Center (NWFSC)</span>"
+    ]
+  },
+  {
+    "objectID": "text/NWFSC-workflow.html#resources",
+    "href": "text/NWFSC-workflow.html#resources",
+    "title": "6  Northwest Fisheries Science Center (NWFSC)",
+    "section": "",
+    "text": "table of current resources that guide their workflow?\n\n\n\nr4ss\nsa4ss\nSASINF\nOther tools used in process?",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Northwest Fisheries Science Center (NWFSC)</span>"
+    ]
+  },
+  {
+    "objectID": "text/NWFSC-workflow.html#workflowtors",
+    "href": "text/NWFSC-workflow.html#workflowtors",
+    "title": "6  Northwest Fisheries Science Center (NWFSC)",
+    "section": "6.2 Workflow/TOR(s)",
+    "text": "6.2 Workflow/TOR(s)\n\nDiscussion of the process for the workflow in the region - described like methods\n\nSubsections for 508 compliance and tools?",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Northwest Fisheries Science Center (NWFSC)</span>"
+    ]
+  },
+  {
+    "objectID": "text/PIFSC-workflow.html",
+    "href": "text/PIFSC-workflow.html",
+    "title": "7  Pacific Islands Fisheries Science Center (PIFSC)",
+    "section": "",
+    "text": "7.1 Resources\nTools to describe:",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Pacific Islands Fisheries Science Center (PIFSC)</span>"
+    ]
+  },
+  {
+    "objectID": "text/PIFSC-workflow.html#resources",
+    "href": "text/PIFSC-workflow.html#resources",
+    "title": "7  Pacific Islands Fisheries Science Center (PIFSC)",
+    "section": "",
+    "text": "table of current resources that guide their workflow?\n\n\n\nbottomfish report script\nStock assessment report repo",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Pacific Islands Fisheries Science Center (PIFSC)</span>"
+    ]
+  },
+  {
+    "objectID": "text/PIFSC-workflow.html#workflowtor",
+    "href": "text/PIFSC-workflow.html#workflowtor",
+    "title": "7  Pacific Islands Fisheries Science Center (PIFSC)",
+    "section": "7.2 Workflow/TOR",
+    "text": "7.2 Workflow/TOR\n\nDiscussion of the process for the workflow in the region - described like methods\n\nSubsections for 508 compliance and tools?",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Pacific Islands Fisheries Science Center (PIFSC)</span>"
+    ]
+  },
+  {
+    "objectID": "text/SEFSC-workflow.html",
+    "href": "text/SEFSC-workflow.html",
+    "title": "8  Southeast Fisheries Science Center (SEFSC)",
+    "section": "",
+    "text": "8.1 Resources\nTools to describe:",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Southeast Fisheries Science Center (SEFSC)</span>"
+    ]
+  },
+  {
+    "objectID": "text/SEFSC-workflow.html#resources",
+    "href": "text/SEFSC-workflow.html#resources",
+    "title": "8  Southeast Fisheries Science Center (SEFSC)",
+    "section": "",
+    "text": "table of current resources that guide their workflow?\n\n\n\nr4ss*\nSEDAR-Assessment-Report template (GOM)\nLatex template (SA)",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Southeast Fisheries Science Center (SEFSC)</span>"
+    ]
+  },
+  {
+    "objectID": "text/SEFSC-workflow.html#workflowtors",
+    "href": "text/SEFSC-workflow.html#workflowtors",
+    "title": "8  Southeast Fisheries Science Center (SEFSC)",
+    "section": "8.2 Workflow/TOR(s)",
+    "text": "8.2 Workflow/TOR(s)\n\nDiscussion of the process for the workflow in the region - described like methods\n\nSubsections for 508 compliance and tools?",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Southeast Fisheries Science Center (SEFSC)</span>"
+    ]
+  },
+  {
+    "objectID": "text/SWFSC-workflow.html",
+    "href": "text/SWFSC-workflow.html",
+    "title": "9  Southwest Fisheries Science Center (SWFSC)",
+    "section": "",
+    "text": "9.1 Resources\nTools to describe:",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Southwest Fisheries Science Center (SWFSC)</span>"
+    ]
+  },
+  {
+    "objectID": "text/SWFSC-workflow.html#resources",
+    "href": "text/SWFSC-workflow.html#resources",
+    "title": "9  Southwest Fisheries Science Center (SWFSC)",
+    "section": "",
+    "text": "table of current resources that guide their workflow?\n\n\n\nStock assessment template\nR process output\nswfscMisc\nr4ss*",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Southwest Fisheries Science Center (SWFSC)</span>"
+    ]
+  },
+  {
+    "objectID": "text/SWFSC-workflow.html#workflowtor",
+    "href": "text/SWFSC-workflow.html#workflowtor",
+    "title": "9  Southwest Fisheries Science Center (SWFSC)",
+    "section": "9.2 Workflow/TOR",
+    "text": "9.2 Workflow/TOR\n\nDiscussion of the process for the workflow in the region - described like methods\n\nSubsections for 508 compliance and tools?",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Southwest Fisheries Science Center (SWFSC)</span>"
+    ]
+  },
+  {
+    "objectID": "text/conclusions.html",
+    "href": "text/conclusions.html",
+    "title": "10  Conclusions",
+    "section": "",
+    "text": "10.1 Future Work",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Conclusions</span>"
+    ]
+  },
+  {
+    "objectID": "text/conclusions.html#future-work",
+    "href": "text/conclusions.html#future-work",
+    "title": "10  Conclusions",
+    "section": "",
+    "text": "Discuss the upcoming/in development tool for automated workflows and plan for the future including stock assessment modelling for the future",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Conclusions</span>"
+    ]
+  },
+  {
+    "objectID": "text/references.html",
+    "href": "text/references.html",
+    "title": "References",
+    "section": "",
+    "text": "Clark, W. G. 1993. “The Effect of Recruitment Variability on the\nChoice of a Target Level of Spawning Biomass Per Recruit.” In,\n233246. Alaska Sea Grant College Program\nAKSG9302.",
+    "crumbs": [
+      "References"
+    ]
+  }
+]
