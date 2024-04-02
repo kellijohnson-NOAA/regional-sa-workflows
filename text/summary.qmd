@@ -4,5 +4,5 @@ Developing and producing a stock assessment report requires a considerable amoun
 
 Workflows across the country not only range from region to region, but from scientist to scientist. There is no current standardized or accepted best practice for producing a stock assessment report. Some centers rely on the use of latex, a common software to produce documents with in-text calculations, while others utilize more recently developed programs like Rmarkdown and quarto, which both use latex as a basis for their production. Others utilize the capacity of Microsoft word which restricts the reproducibility of a report as well as increases work time since figures, tables, and other associated resources must be compiled outside of the word document.
 
-**Description of interaction and list of fishery management coucils across the US**
+**Description of interaction and list of fishery management councils across the US**
 

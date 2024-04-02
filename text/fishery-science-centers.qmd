@@ -40,9 +40,37 @@ Largest problems:
   
   - Even with all the work in the compliance, there is still a large effort into making it accessible (~2 week conversion for single analyst at the center)
   
-  - 
+  - Workflow still labor intensive
+  
+  - Large barrier to use template for new users
+  
+  - Only automated for management track reports
   
 ## NWFSC {#sec-nwfsc}
+
+Process Variations:
+
+  - Input data extractions are from an online database and state agencies
+    
+    - nwfscSurvey repo for west coast groundfish survey data
+  
+  - Use of sa4ss (maintained by scientist at NWFSC), package to make a template in github
+  
+  - All figures generated using r4ss functions
+  
+  - Standardized tables
+  
+  - Scripts are specific to species
+  
+  - Use of SS in the NW led to huge developments for packages that are tuned to its output such as r4ss and sa4ss
+  
+  - Process is not standardized for entire center (common among a lot of centers)
+  
+    - Some assessment scientists create a new repo for each assessment
+
+Largest Issues:
+
+  - Reproducibility
 
 ## PIFSC {#sec-pifsc}
 
