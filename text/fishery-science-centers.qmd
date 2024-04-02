@@ -1,0 +1,53 @@
+# Region Specific Workflow {#sec-regionworkflows}
+
+  - Descriptions of the workflows by region and what separates them from other regions
+  
+  - Advances made by this region and the tools they use
+  
+  - Particular struggles or unique operations incorporated into their workflow
+  
+  - Table of resources used for their workflows
+
+## AFSC {#sec-afsc}
+
+Alternative way to reference section \nameref{sec-safe} rather than @sec-safe
+*Note doesn't work with html render.
+
+
+## NEFSC {#sec-nefsc}
+
+Process variations:
+
+  - Informal/verbal agreement for TOR guidelines for each stock
+  
+  - Standardized report template agreed upon by NOAA and the MAFMC AND NEFMC (agreed on in 2017)
+  
+    - Short and concise to make policy decisions (mgmt track specifically)
+  
+  - Report template is not publicly available but all done in latex (modular workflow)
+  
+    - Figures rendered outside (saved as png) then reference in doc
+    
+    - Tables created into tex files and referenced as component in template
+    
+  - Extensive work with 508 compliance
+  
+    - Contractors developing package for compliance to apply to template
+    
+Largest problems:
+
+  - Lots of processing variables for 508 compliance
+  
+  - Even with all the work in the compliance, there is still a large effort into making it accessible (~2 week conversion for single analyst at the center)
+  
+  - 
+  
+## NWFSC {#sec-nwfsc}
+
+## PIFSC {#sec-pifsc}
+
+## SEFSC {#sec-sefsc}
+
+## SWFSC {#sec-swfsc}
+
+Example in text reference [@clark1993].

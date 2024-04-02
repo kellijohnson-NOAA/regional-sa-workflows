@@ -1,0 +1,89 @@
+# Outline
+
+# Summary
+
+  - Same as other summary
+  
+  - Identification of the "problem" and goal of the memo
+  
+  - Challenges of 508 compliance in current workflows
+
+# General workflow (commonalities and process)
+
+  1. Gather data inputs for model
+  
+  2. Configure assessment model with updated data (based on assessment need for that year)
+  
+  3. Sensitivity runs and projections
+  
+  4. Develop assessment report for SSC, councils, and/or RFMOs
+  
+  5. Present assessment and recommendations to SSC and councils
+  
+  6. Assessment accepted or not, create formal report for public release and adoption recommendations as designated by the councils
+
+# Stock Assessment Models
+
+  - General use of assessment models in the workflow (self-explanatory)
+  
+  - Short descriptions of various models used in the U.S. around the regions (purpose is so that the reader can understand the model when it is reference in the section later)
+  
+  - Include link/reference to papers/repositories at end of summary for reader to reference (also refer to FIT)
+
+# Tools and Resources
+
+  - Tools and templates available for different models and workflows (added as a list of tools in a way instead of by region since there are a lot of regions that use the same tools)
+
+# Region specific Workflow
+
+  - Descriptions of the workflows by reigon and what separates them from other regions
+  
+  - Advances made by this region and the tools they use
+  
+  - Particulatr struggles or unique operations incorporated into their workflow
+  
+  - Table of resources used for their workflows
+
+## NEFSC
+
+Process variations:
+
+  - Informal/verbal agreement for TOR guidelines for each stock
+  
+  - Standardized report template agreed upon by NOAA and the MAFMC AND NEFMC (agreed on in 2017)
+  
+    - Short and concise to make policy decisions (mgmt track specifically)
+  
+  - Report template is not publically available but all done in latex (modular workflow)
+  
+    - Figures rendered outside (saved as png) then reference in doc
+    
+    - Tables created into tex files and referenced as component in template
+    
+  - Extensive work with 508 compliance
+  
+    - Contractors developing package for compliance to apply to template
+    
+Largest problems:
+
+  - Lots of processing variables for 508 compliance
+  
+  - Even with all the work in the compliance, there is still a large effort into making it accessible (~2 week conversion for single analyst at the center)
+  
+  - 
+  
+## NWFSC
+
+## PIFSC
+
+## SEFSC
+
+## SWFSC
+
+## AFSC
+
+# Conclusions and future work
+
+
+
+
