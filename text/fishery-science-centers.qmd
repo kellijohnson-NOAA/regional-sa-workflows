@@ -49,3 +49,4 @@ Largest problems:
 
 ## SWFSC {#sec-swfsc}
 
+Example in text reference [@clark1993].
