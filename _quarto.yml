@@ -57,6 +57,8 @@ format:
 
 filters: 
   - name_crossref.lua
+  - titlepage-theme.lua
+  - coverpage-theme.lua
     
 metadata-files:
   - _frontmatter.yml
