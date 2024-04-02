@@ -11,6 +11,7 @@
 ## AFSC {#sec-afsc}
 
 Alternative way to reference section \nameref{sec-safe} rather than @sec-safe
+*Note doesn't work with html render.
 
 
 ## NEFSC {#sec-nefsc}
