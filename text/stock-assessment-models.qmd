@@ -2,16 +2,12 @@
 
 [Short descriptions of commonly used stock assessment models within the U.S. including acknowledgement of smaller used models and FIMS for the future]
 
-  - WHAM
+  - General use of assessment models in the workflow (self-explanatory)
   
-  - SS
+  - Short descriptions of various models used in the U.S. around the regions (purpose is so that the reader can understand the model when it is reference in the section later)
   
-  - BAM
+    - Categorize based on assessment type rather than assessment model (age-structured/catch-at-age, catch-at-length, VPA, Agg. Biomass Dynamics, Index-based, data-limited)
   
-  - ASAP
-  
-  - AMAK
-  
-  - Bespoke
-  
-  - FIMS
+  - Include link/reference to papers/repositories at end of summary for reader to reference (also refer to FIT)
+
+  - WHAM, SS, BAM, ASAP, AMAK, Bespoke, FIMS, ect

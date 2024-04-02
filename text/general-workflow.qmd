@@ -1,3 +1,15 @@
-# General Stock Assessment Workflow Structure
+# General Stock Assessment Workflow (commonalities and process) {#sec-general}
 
   - Description of stock assessment workflows from input to bringing the report to the SSC and council(s) for evaluation and adoption of formal management measures resulting from recommendations
+  
+  1. Gather data inputs for model
+  
+  2. Configure assessment model with updated data (based on assessment need for that year)
+  
+  3. Sensitivity runs and projections
+  
+  4. Develop assessment report for SSC, councils, and/or RFMOs
+  
+  5. Present assessment and recommendations to SSC and councils
+  
+  6. Assessment accepted or not, create formal report for public release and adoption recommendations as designated by the councils

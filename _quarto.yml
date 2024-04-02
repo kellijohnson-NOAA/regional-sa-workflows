@@ -21,12 +21,8 @@ book:
     - text/summary.qmd
     - text/general-workflow.qmd
     - text/stock-assessment-models.qmd
-    - text/AFSC-workflow.qmd
-    - text/NEFSC-workflow.qmd
-    - text/NWFSC-workflow.qmd
-    - text/PIFSC-workflow.qmd
-    - text/SEFSC-workflow.qmd
-    - text/SWFSC-workflow.qmd
+    - text/tool-and-resources.qmd
+    - text/fishery-science-centers.qmd
     - text/conclusions.qmd
     - text/references.qmd
 
@@ -58,6 +54,9 @@ format:
     classoption: ["oneside", "open=any"]
     titlepage: "plain"
     keep-tex: true
+
+filters: 
+  - name_crossref.lua
     
 metadata-files:
   - _frontmatter.yml

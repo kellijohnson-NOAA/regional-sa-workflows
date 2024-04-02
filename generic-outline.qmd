@@ -20,13 +20,13 @@
   
   5. Present assessment and recommendations to SSC and councils
   
-  6. Assessment accepted or not, create formal report for public release and adpotion recommendations as designated by the councils
+  6. Assessment accepted or not, create formal report for public release and adoption recommendations as designated by the councils
 
 # Stock Assessment Models
 
   - General use of assessment models in the workflow (self-explanatory)
   
-  - Short descriptions of various models used in the U.S. around the regions (purpose is so that the reader can understand the model when it is reference in the seciton later)
+  - Short descriptions of various models used in the U.S. around the regions (purpose is so that the reader can understand the model when it is reference in the section later)
   
   - Include link/reference to papers/repositories at end of summary for reader to reference (also refer to FIT)
 

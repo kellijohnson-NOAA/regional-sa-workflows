@@ -1,0 +1,41 @@
+# Tools and Resources {#sec-tools}
+
+  - Tools and templates available for different models and workflows (added as a list of tools in a way instead of by region since there are a lot of regions that use the same tools)
+  
+## afscdata {#sec-afscdata}
+
+## afscassess {#sec-afscassess}
+
+## safe Report Template {#sec-safe}
+
+## r4ss {#sec-r4ss}
+
+## sa4ss - SS Report Template {#sec-sa4ss}
+
+## ASAPplots {#sec-asapplots}
+
+## MAFSC SAFE Reports Template {#sec-mafscsafe}
+
+## SEDAR-Assessement Report Template {#sec-sedartemplate}
+
+## FishGraph {#sec-fishgraph}
+
+## ADMB2R {#sec-admb2r}
+
+## SASINF {#sec-sasinf}
+
+## SW Stock Assessment Template {#sec-swfsctemplate}
+
+## BrailleR {#sec-brailler}
+
+## SW R Process Output {#sec-swroutput}
+
+## swfscMisc {#sec-swfscmisc}
+
+## NMFSReports {#sec-nmfsreports}
+
+## NOAA Tech Memo Template {#sec-noaatechmemo}
+
+## Other Assessment Report Template Repositories {#sec-othertemplates}
+
+
