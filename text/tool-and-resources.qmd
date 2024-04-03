@@ -12,6 +12,8 @@
 
 ## sa4ss - SS Report Template {#sec-sa4ss}
 
+## pfmc-assessments {#sec-pfmcassess}
+
 ## ASAPplots {#sec-asapplots}
 
 ## MAFSC SAFE Reports Template {#sec-mafscsafe}

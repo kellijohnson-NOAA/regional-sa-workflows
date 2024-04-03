@@ -71,8 +71,32 @@ Process Variations:
 Largest Issues:
 
   - Reproducibility
+  
+  - Iterative process of incorporating changes to models for report generation: not optomized for this part of the workflow
 
 ## PIFSC {#sec-pifsc}
+
+Process variations:
+
+  - "Template" report in github (private and not modular; international)
+  
+  - No generalized workflow/process (aka each species is a little different)
+  
+  - Workflow isn't specifically defined
+  
+  - Process tables and figures in R then incorporate into a word document (domestic)
+  
+    - Reported out as a tech memo
+  
+Largest Issues:
+
+  - Work with international and species complexes that make it difficult to have a general reporting structure
+  
+  - Barrier to entry with quarto
+  
+  - Can't update .qmd file after changes made to word doc after render
+  
+  - 
 
 ## SEFSC {#sec-sefsc}
 

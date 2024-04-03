@@ -1,0 +1,322 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Summary of U.S. Stock Assessment Workflows",
+    "section": "",
+    "text": "Citation\nSchiano, S. 2024. Summary of U.S. Stock Assessment Workflows: Tools and Templates. NOAA Fisheries Office of Science and Technology.",
+    "crumbs": [
+      "Citation"
+    ]
+  },
+  {
+    "objectID": "text/summary.html",
+    "href": "text/summary.html",
+    "title": "1  Summary",
+    "section": "",
+    "text": "Developing and producing a stock assessment report requires a considerable amount of data consolidation, analysis, and research. Reports can range from 10 pages to well over 300, but the goal of the process remains to provide management advice with the current and projected status of the stock, catches, and other important parameters to ensure its sustainability. There have been many efforts done to improve the reproducibility of workflows and reduce time it takes to produce these reports. So far,improvements and efforts have ranged considerably by region of the U.S. Specifically, each of the seven regional fishery science centers across the U.S. have their own workflows to assess a stock and produce its report. Many of these workflows are guided by requirements from fishery management councils and other involved managing bodies that utilize these reports to delegate fishery regulations.\nWorkflows across the country not only range from region to region, but from scientist to scientist. There is no current standardized or accepted best practice for producing a stock assessment report. Some centers rely on the use of latex, a common software to produce documents with in-text calculations, while others utilize more recently developed programs like Rmarkdown and quarto, which both use latex as a basis for their production. Others utilize the capacity of Microsoft word which restricts the reproducibility of a report as well as increases work time since figures, tables, and other associated resources must be compiled outside of the word document.\nDescription of interaction and list of fishery management councils across the US",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "text/general-workflow.html",
+    "href": "text/general-workflow.html",
+    "title": "2  General Stock Assessment Workflow (commonalities and process)",
+    "section": "",
+    "text": "Description of stock assessment workflows from input to bringing the report to the SSC and council(s) for evaluation and adoption of formal management measures resulting from recommendations\n\n\nGather data inputs for model\nConfigure assessment model with updated data (based on assessment need for that year)\nSensitivity runs and projections\nDevelop assessment report for SSC, councils, and/or RFMOs\nPresent assessment and recommendations to SSC and councils\nAssessment accepted or not, create formal report for public release and adoption recommendations as designated by the councils\n\nIdentifiable issues:\n\nInconsistent naming conventions for parameters\nInconsistent format/no guidelines present for a U.S. assessment report",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>General Stock Assessment Workflow (commonalities and process)</span>"
+    ]
+  },
+  {
+    "objectID": "text/stock-assessment-models.html",
+    "href": "text/stock-assessment-models.html",
+    "title": "3  Stock Assessment Models",
+    "section": "",
+    "text": "[Short descriptions of commonly used stock assessment models within the U.S. including acknowledgement of smaller used models and FIMS for the future]\n\nGeneral use of assessment models in the workflow (self-explanatory)\nShort descriptions of various models used in the U.S. around the regions (purpose is so that the reader can understand the model when it is reference in the section later)\n\nCategorize based on assessment type rather than assessment model (age-structured/catch-at-age, catch-at-length, VPA, Agg. Biomass Dynamics, Index-based, data-limited)\n\nInclude link/reference to papers/repositories at end of summary for reader to reference (also refer to FIT)\nWHAM, SS, BAM, ASAP, AMAK, Bespoke, FIMS, ect",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Stock Assessment Models</span>"
+    ]
+  },
+  {
+    "objectID": "text/tool-and-resources.html",
+    "href": "text/tool-and-resources.html",
+    "title": "4  Tools and Resources",
+    "section": "",
+    "text": "4.1 afscdata",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tools and Resources</span>"
+    ]
+  },
+  {
+    "objectID": "text/tool-and-resources.html#sec-afscassess",
+    "href": "text/tool-and-resources.html#sec-afscassess",
+    "title": "4  Tools and Resources",
+    "section": "4.2 afscassess",
+    "text": "4.2 afscassess",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tools and Resources</span>"
+    ]
+  },
+  {
+    "objectID": "text/tool-and-resources.html#sec-safe",
+    "href": "text/tool-and-resources.html#sec-safe",
+    "title": "4  Tools and Resources",
+    "section": "4.3 safe Report Template",
+    "text": "4.3 safe Report Template",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tools and Resources</span>"
+    ]
+  },
+  {
+    "objectID": "text/tool-and-resources.html#sec-r4ss",
+    "href": "text/tool-and-resources.html#sec-r4ss",
+    "title": "4  Tools and Resources",
+    "section": "4.4 r4ss",
+    "text": "4.4 r4ss",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tools and Resources</span>"
+    ]
+  },
+  {
+    "objectID": "text/tool-and-resources.html#sec-sa4ss",
+    "href": "text/tool-and-resources.html#sec-sa4ss",
+    "title": "4  Tools and Resources",
+    "section": "4.5 sa4ss - SS Report Template",
+    "text": "4.5 sa4ss - SS Report Template",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tools and Resources</span>"
+    ]
+  },
+  {
+    "objectID": "text/tool-and-resources.html#sec-pfmcassess",
+    "href": "text/tool-and-resources.html#sec-pfmcassess",
+    "title": "4  Tools and Resources",
+    "section": "4.6 pfmc-assessments",
+    "text": "4.6 pfmc-assessments",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tools and Resources</span>"
+    ]
+  },
+  {
+    "objectID": "text/tool-and-resources.html#sec-asapplots",
+    "href": "text/tool-and-resources.html#sec-asapplots",
+    "title": "4  Tools and Resources",
+    "section": "4.7 ASAPplots",
+    "text": "4.7 ASAPplots",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tools and Resources</span>"
+    ]
+  },
+  {
+    "objectID": "text/tool-and-resources.html#sec-mafscsafe",
+    "href": "text/tool-and-resources.html#sec-mafscsafe",
+    "title": "4  Tools and Resources",
+    "section": "4.8 MAFSC SAFE Reports Template",
+    "text": "4.8 MAFSC SAFE Reports Template",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tools and Resources</span>"
+    ]
+  },
+  {
+    "objectID": "text/tool-and-resources.html#sec-sedartemplate",
+    "href": "text/tool-and-resources.html#sec-sedartemplate",
+    "title": "4  Tools and Resources",
+    "section": "4.9 SEDAR-Assessement Report Template",
+    "text": "4.9 SEDAR-Assessement Report Template",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tools and Resources</span>"
+    ]
+  },
+  {
+    "objectID": "text/tool-and-resources.html#sec-fishgraph",
+    "href": "text/tool-and-resources.html#sec-fishgraph",
+    "title": "4  Tools and Resources",
+    "section": "4.10 FishGraph",
+    "text": "4.10 FishGraph",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tools and Resources</span>"
+    ]
+  },
+  {
+    "objectID": "text/tool-and-resources.html#sec-admb2r",
+    "href": "text/tool-and-resources.html#sec-admb2r",
+    "title": "4  Tools and Resources",
+    "section": "4.11 ADMB2R",
+    "text": "4.11 ADMB2R",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tools and Resources</span>"
+    ]
+  },
+  {
+    "objectID": "text/tool-and-resources.html#sec-sasinf",
+    "href": "text/tool-and-resources.html#sec-sasinf",
+    "title": "4  Tools and Resources",
+    "section": "4.12 SASINF",
+    "text": "4.12 SASINF",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tools and Resources</span>"
+    ]
+  },
+  {
+    "objectID": "text/tool-and-resources.html#sec-swfsctemplate",
+    "href": "text/tool-and-resources.html#sec-swfsctemplate",
+    "title": "4  Tools and Resources",
+    "section": "4.13 SW Stock Assessment Template",
+    "text": "4.13 SW Stock Assessment Template",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tools and Resources</span>"
+    ]
+  },
+  {
+    "objectID": "text/tool-and-resources.html#sec-brailler",
+    "href": "text/tool-and-resources.html#sec-brailler",
+    "title": "4  Tools and Resources",
+    "section": "4.14 BrailleR",
+    "text": "4.14 BrailleR",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tools and Resources</span>"
+    ]
+  },
+  {
+    "objectID": "text/tool-and-resources.html#sec-swroutput",
+    "href": "text/tool-and-resources.html#sec-swroutput",
+    "title": "4  Tools and Resources",
+    "section": "4.15 SW R Process Output",
+    "text": "4.15 SW R Process Output",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tools and Resources</span>"
+    ]
+  },
+  {
+    "objectID": "text/tool-and-resources.html#sec-swfscmisc",
+    "href": "text/tool-and-resources.html#sec-swfscmisc",
+    "title": "4  Tools and Resources",
+    "section": "4.16 swfscMisc",
+    "text": "4.16 swfscMisc",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tools and Resources</span>"
+    ]
+  },
+  {
+    "objectID": "text/tool-and-resources.html#sec-nmfsreports",
+    "href": "text/tool-and-resources.html#sec-nmfsreports",
+    "title": "4  Tools and Resources",
+    "section": "4.17 NMFSReports",
+    "text": "4.17 NMFSReports",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tools and Resources</span>"
+    ]
+  },
+  {
+    "objectID": "text/tool-and-resources.html#sec-noaatechmemo",
+    "href": "text/tool-and-resources.html#sec-noaatechmemo",
+    "title": "4  Tools and Resources",
+    "section": "4.18 NOAA Tech Memo Template",
+    "text": "4.18 NOAA Tech Memo Template",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tools and Resources</span>"
+    ]
+  },
+  {
+    "objectID": "text/tool-and-resources.html#sec-othertemplates",
+    "href": "text/tool-and-resources.html#sec-othertemplates",
+    "title": "4  Tools and Resources",
+    "section": "4.19 Other Assessment Report Template Repositories",
+    "text": "4.19 Other Assessment Report Template Repositories",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tools and Resources</span>"
+    ]
+  },
+  {
+    "objectID": "text/fishery-science-centers.html",
+    "href": "text/fishery-science-centers.html",
+    "title": "5  Region Specific Workflow",
+    "section": "",
+    "text": "5.1 AFSC\nAlternative way to reference section rather than Section 4.3 *Note doesn’t work with html render.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Region Specific Workflow</span>"
+    ]
+  },
+  {
+    "objectID": "text/fishery-science-centers.html#sec-nefsc",
+    "href": "text/fishery-science-centers.html#sec-nefsc",
+    "title": "5  Region Specific Workflow",
+    "section": "5.2 NEFSC",
+    "text": "5.2 NEFSC\nProcess variations:\n\nInformal/verbal agreement for TOR guidelines for each stock\nStandardized report template agreed upon by NOAA and the MAFMC AND NEFMC (agreed on in 2017)\n\nShort and concise to make policy decisions (mgmt track specifically)\n\nReport template is not publicly available but all done in latex (modular workflow)\n\nFigures rendered outside (saved as png) then reference in doc\nTables created into tex files and referenced as component in template\n\nExtensive work with 508 compliance\n\nContractors developing package for compliance to apply to template\n\n\nLargest problems:\n\nLots of processing variables for 508 compliance\nEven with all the work in the compliance, there is still a large effort into making it accessible (~2 week conversion for single analyst at the center)\nWorkflow still labor intensive\nLarge barrier to use template for new users\nOnly automated for management track reports",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Region Specific Workflow</span>"
+    ]
+  },
+  {
+    "objectID": "text/fishery-science-centers.html#sec-nwfsc",
+    "href": "text/fishery-science-centers.html#sec-nwfsc",
+    "title": "5  Region Specific Workflow",
+    "section": "5.3 NWFSC",
+    "text": "5.3 NWFSC\nProcess Variations:\n\nInput data extractions are from an online database and state agencies\n\nnwfscSurvey repo for west coast groundfish survey data\n\nUse of sa4ss (maintained by scientist at NWFSC), package to make a template in github\nAll figures generated using r4ss functions\nStandardized tables\nScripts are specific to species\nUse of SS in the NW led to huge developments for packages that are tuned to its output such as r4ss and sa4ss\nProcess is not standardized for entire center (common among a lot of centers)\n\nSome assessment scientists create a new repo for each assessment\n\n\nLargest Issues:\n\nReproducibility\nIterative process of incorporating changes to models for report generation: not optomized for this part of the workflow",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Region Specific Workflow</span>"
+    ]
+  },
+  {
+    "objectID": "text/fishery-science-centers.html#sec-pifsc",
+    "href": "text/fishery-science-centers.html#sec-pifsc",
+    "title": "5  Region Specific Workflow",
+    "section": "5.4 PIFSC",
+    "text": "5.4 PIFSC\nProcess variations:\n\n“Template” report in github (private and not modular; international)\nNo generalized workflow/process (aka each species is a little different)\nWorkflow isn’t specifically defined\nProcess tables and figures in R then incorporate into a word document (domestic)\n\nReported out as a tech memo\n\n\nLargest Issues:\n\nWork with international and species complexes that make it difficult to have a general reporting structure\nBarrier to entry with quarto\nCan’t update .qmd file after changes made to word doc after render",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Region Specific Workflow</span>"
+    ]
+  },
+  {
+    "objectID": "text/fishery-science-centers.html#sec-sefsc",
+    "href": "text/fishery-science-centers.html#sec-sefsc",
+    "title": "5  Region Specific Workflow",
+    "section": "5.5 SEFSC",
+    "text": "5.5 SEFSC",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Region Specific Workflow</span>"
+    ]
+  },
+  {
+    "objectID": "text/fishery-science-centers.html#sec-swfsc",
+    "href": "text/fishery-science-centers.html#sec-swfsc",
+    "title": "5  Region Specific Workflow",
+    "section": "5.6 SWFSC",
+    "text": "5.6 SWFSC\nExample in text reference (Clark 1993).\n\n\n\n\nClark, W. G. 1993. “The Effect of Recruitment Variability on the Choice of a Target Level of Spawning Biomass Per Recruit.” In, 233246. Alaska Sea Grant College Program AKSG9302.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Region Specific Workflow</span>"
+    ]
+  },
+  {
+    "objectID": "text/conclusions.html",
+    "href": "text/conclusions.html",
+    "title": "6  Conclusions",
+    "section": "",
+    "text": "6.1 Future Work",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Conclusions</span>"
+    ]
+  },
+  {
+    "objectID": "text/conclusions.html#future-work",
+    "href": "text/conclusions.html#future-work",
+    "title": "6  Conclusions",
+    "section": "",
+    "text": "Discuss the upcoming/in development tool for automated workflows and plan for the future including stock assessment modelling for the future",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Conclusions</span>"
+    ]
+  },
+  {
+    "objectID": "text/references.html",
+    "href": "text/references.html",
+    "title": "References",
+    "section": "",
+    "text": "Clark, W. G. 1993. “The Effect of Recruitment Variability on the\nChoice of a Target Level of Spawning Biomass Per Recruit.” In,\n233246. Alaska Sea Grant College Program\nAKSG9302.",
+    "crumbs": [
+      "References"
+    ]
+  }
+]
