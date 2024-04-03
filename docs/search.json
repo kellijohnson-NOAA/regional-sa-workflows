@@ -264,7 +264,7 @@
     "href": "text/fishery-science-centers.html#sec-pifsc",
     "title": "5  Region Specific Workflow",
     "section": "5.4 PIFSC",
-    "text": "5.4 PIFSC\nProcess variations:\n\n“Template” report in github (private and not modular; international)\nNo generalized workflow/process (aka each species is a little different)\nWorkflow isn’t specifically defined\nProcess tables and figures in R then incorporate into a word document (domestic)\n\nReported out as a tech memo\n\n\nLargest Issues:\n\nWork with international and species complexes that make it difficult to have a general reporting structure\nBarrier to entry with quarto\nCan’t update .qmd file after changes made to word doc after render",
+    "text": "5.4 PIFSC\nProcess variations:\n\n“Template” report in github (private and not modular; international)\nNo generalized workflow/process (aka each species is a little different)\nWorkflow isn’t specifically defined\nProcess tables and figures in R then incorporate into a word document (domestic)\n\nReported out as a tech memo\n\n\nLargest Issues:\n\nWork with international and species complexes that make it difficult to have a general reporting structure\nBarrier to entry with quarto\nCan’t update .qmd file after changes made to word doc after render\nParallelization of workflows",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Region Specific Workflow</span>"
     ]
@@ -274,7 +274,7 @@
     "href": "text/fishery-science-centers.html#sec-sefsc",
     "title": "5  Region Specific Workflow",
     "section": "5.5 SEFSC",
-    "text": "5.5 SEFSC",
+    "text": "5.5 SEFSC\nProcess Variations:\n\nFollows requirements for SEDAR\nFigures and tables at the end of the report (SEDAR requirement)\n\n\nCaribbean:\n\nA lot of intermediaries in the process (aka figures and tables generated outside of the report)\nIncorporated some use of Rmarkdown with a modularized template system\nPrototype template using quarto books for SEDAR 57\n\nGulf of Mexico:\nSouth Atlantic:\n\nUses latex template with tables as outside tex doc (incorporated into the template) and figures produced outside of template into a folder then referenced into template\nOrganized on a species by species case\nTemplate not on github\n\nLargest Issues:\n\nVariable answer based on region (South Atlantic v. Gulf of Mexico v. Caribbean)\nConfidentiality (large recreational base)\n\nCaribbean:\n\nDifficulty referencing tables and figures in Rmarkdown\nLimited abilities and knowledge with R/quarto\nOftentimes updates seem to feel like benchmark assessments due to requests\n\nGulf of Mexico:\n\n\n\nSouth Atlantic:",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Region Specific Workflow</span>"
     ]
@@ -284,7 +284,7 @@
     "href": "text/fishery-science-centers.html#sec-swfsc",
     "title": "5  Region Specific Workflow",
     "section": "5.6 SWFSC",
-    "text": "5.6 SWFSC\nExample in text reference (Clark 1993).\n\n\n\n\nClark, W. G. 1993. “The Effect of Recruitment Variability on the Choice of a Target Level of Spawning Biomass Per Recruit.” In, 233246. Alaska Sea Grant College Program AKSG9302.",
+    "text": "5.6 SWFSC\nProcess Variations:\n\n\n\nLargest Issues:\n\n\n\nExample in text reference (Clark 1993).\n\n\n\n\nClark, W. G. 1993. “The Effect of Recruitment Variability on the Choice of a Target Level of Spawning Biomass Per Recruit.” In, 233246. Alaska Sea Grant College Program AKSG9302.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Region Specific Workflow</span>"
     ]

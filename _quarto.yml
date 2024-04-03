@@ -26,7 +26,7 @@ book:
     - text/conclusions.qmd
     - text/references.qmd
 
-  site-url: https://schiano-noaa.github.io/regional-sa-workflows/
+  # site-url: https://schiano-noaa.github.io/regional-sa-workflows/
   repo-url: https://github.com/Schiano-NOAA/regional-sa-workflows
   repo-actions: [edit, source, issue]
   search: true
@@ -55,10 +55,10 @@ format:
     titlepage: "plain"
     keep-tex: true
 
-filters: 
-  - name_crossref.lua
-  # - titlepage-theme.lua
-  # - coverpage-theme.lua
+# filters: 
+#   - name_crossref.lua
+#   - titlepage-theme.lua
+#   - coverpage-theme.lua
     
 metadata-files:
   - _frontmatter.yml

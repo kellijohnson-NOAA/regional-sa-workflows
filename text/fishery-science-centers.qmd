@@ -96,10 +96,68 @@ Largest Issues:
   
   - Can't update .qmd file after changes made to word doc after render
   
-  - 
+  - Parallelization of workflows
 
 ## SEFSC {#sec-sefsc}
 
+Process Variations:
+
+  - Follows requirements for SEDAR
+
+  - Figures and tables at the end of the report (SEDAR requirement)
+  
+  - 
+  
+
+Caribbean:
+
+  - A lot of intermediaries in the process (aka figures and tables generated outside of the report)
+  
+  - Incorporated some use of Rmarkdown with a modularized template system
+  
+  - Prototype template using quarto books for SEDAR 57
+  
+Gulf of Mexico:
+
+South Atlantic:
+
+  - Uses latex template with tables as outside tex doc (incorporated into the template) and figures produced outside of template into a folder then referenced into template
+  
+  - Organized on a species by species case
+  
+  - Template not on github
+  
+  
+Largest Issues:
+
+  - Variable answer based on region (South Atlantic v. Gulf of Mexico v. Caribbean)
+  
+  - Confidentiality (large recreational base)
+
+Caribbean:
+  
+  - Difficulty referencing tables and figures in Rmarkdown
+  
+  - Limited abilities and knowledge with R/quarto
+  
+  - Oftentimes updates seem to feel like benchmark assessments due to requests
+  
+Gulf of Mexico:
+
+  - 
+  
+South Atlantic:
+
+  - 
+
 ## SWFSC {#sec-swfsc}
+
+Process Variations:
+
+  - 
+  
+Largest Issues:
+
+  - 
 
 Example in text reference [@clark1993].
