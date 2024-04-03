@@ -106,7 +106,7 @@ Process Variations:
 
   - Figures and tables at the end of the report (SEDAR requirement)
   
-  - 
+  - File system on server where data is stored
   
 
 Caribbean:
@@ -119,13 +119,30 @@ Caribbean:
   
 Gulf of Mexico:
 
+  - Rmarkdown template used in process (private repository on GitHub)
+  
+  - Work with SS report file and automate from there
+  
+  - Some parameters are hard coded and changed per species
+  
+  - New forked repo. for each stock assessment
+  
+
 South Atlantic:
 
+  - Data is gathered as an excel file - manually converted as inputs for the assessment model (potential for automation but analysts lack time)
+  
+  - Model process includes: fine tuning, diagnostics, ADMB2R (@sec-admb2r), FishGraph (@sec-fishgraph)
+  
   - Uses latex template with tables as outside tex doc (incorporated into the template) and figures produced outside of template into a folder then referenced into template
+  
+  - Report not completely automated
   
   - Organized on a species by species case
   
   - Template not on github
+  
+  - Previous reports are shared with analyst who next inherits it through backup drive
   
   
 Largest Issues:
@@ -133,6 +150,12 @@ Largest Issues:
   - Variable answer based on region (South Atlantic v. Gulf of Mexico v. Caribbean)
   
   - Confidentiality (large recreational base)
+  
+  - Data providers don't provide data in the same format
+  
+  - Limited to no 508 compliance (other than minimum requirements)
+  
+    - Highly time intensive
 
 Caribbean:
   
@@ -144,11 +167,24 @@ Caribbean:
   
 Gulf of Mexico:
 
-  - 
+  - Figures in regards to inputs cause most issues
+  
+  - Long, large reports
+  
+  - Steep learning curve for those not yet using markdown (all in the branch have at least used the Rmarkdown template once for an assessment)
+  
+  - Large data sets/data takes a while to read in
+  
+  - Cannot access others' SS output files dues to confidentiality (those outside of NOAA org)
+  
+  - Projections aren't standardized
   
 South Atlantic:
 
-  - 
+  - Process is not automated
+  
+  - Localized reporting template
+  
 
 ## SWFSC {#sec-swfsc}
 
