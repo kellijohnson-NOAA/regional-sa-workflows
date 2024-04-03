@@ -1,0 +1,1069 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  letterpaper,
+  oneside,
+  open=any]{scrbook}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{5}
+% Make \paragraph and \subparagraph free-standing
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+% definitions for citeproc citations
+\NewDocumentCommand\citeproctext{}{}
+\NewDocumentCommand\citeproc{mm}{%
+  \begingroup\def\citeproctext{#2}\cite{#1}\endgroup}
+\makeatletter
+ % allow citations to break across lines
+ \let\@cite@ofmt\@firstofone
+ % avoid brackets around text for \cite:
+ \def\@biblabel#1{}
+ \def\@cite#1#2{{#1\if@tempswa , #2\fi}}
+\makeatother
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2] % #1 hanging-indent, #2 entry-spacing
+ {\begin{list}{}{%
+  \setlength{\itemindent}{0pt}
+  \setlength{\leftmargin}{0pt}
+  \setlength{\parsep}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+   \setlength{\leftmargin}{\cslhangindent}
+   \setlength{\itemindent}{-1\cslhangindent}
+  \fi
+  % set entry spacing
+  \setlength{\itemsep}{#2\baselineskip}}}
+ {\end{list}}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{\hfill\break\parbox[t]{\linewidth}{\strut\ignorespaces#1\strut}}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\usepackage[default]{opensans}
+\fontseries{lc}\selectfont
+\definecolor{nmfsblue1}{HTML}{00467f}
+\definecolor{nmfsblue2}{HTML}{007eb2}
+\makeatletter
+\@ifpackageloaded{bookmark}{}{\usepackage{bookmark}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+
+\usepackage{hyphenat}
+\usepackage{ifthen}
+\usepackage{calc}
+\usepackage{calculator}
+
+\usepackage{graphicx}
+\usepackage{wallpaper}
+
+\usepackage{geometry}
+
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{afterpage}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{fadings}
+\usepackage[pagecolor=none]{pagecolor}
+
+
+% Set the titlepage font families
+
+
+
+
+
+
+
+% Set the coverpage font families
+
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Summary of U.S. Stock Assessment Workflows},
+  pdfauthor={Samantha Schiano},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Summary of U.S. Stock Assessment Workflows}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{Tools, Templates, and other Resources}
+\author{Samantha Schiano}
+\date{2024-04-01}
+
+\begin{document}
+%%%%% begin titlepage extension code
+
+  \begin{frontmatter}
+
+\begin{titlepage}
+% This is a combination of Pandoc templating and LaTeX
+% Pandoc templating https://pandoc.org/MANUAL.html#templates
+% See the README for help
+
+\thispagestyle{empty}
+
+\newgeometry{top=-100in}
+
+% Page color
+
+\newcommand{\coverauthorstyle}[1]{{\fontsize{20}{24.0}\selectfont
+#1}}
+
+\begin{tikzpicture}[remember picture, overlay, inner sep=0pt, outer sep=0pt]
+
+\tikzfading[name=fadeout, inner color=transparent!0,outer color=transparent!100]
+\tikzfading[name=fadein, inner color=transparent!100,outer color=transparent!0]
+\node[anchor=south west, rotate=0.0, opacity=1.0] at ($(current page.south west)+(0pt, 8.75in)$) {
+\includegraphics[width=\paperwidth, keepaspectratio]{images/cover-header-2.png}};
+
+% Title
+\newcommand{\titlelocationleft}{2.3in}
+\newcommand{\titlelocationbottom}{7in}
+\newcommand{\titlealign}{left}
+
+\begin{scope}{%
+\fontsize{50}{60.0}\selectfont
+\node[anchor=north
+west, align=left, rotate=0] (Title1) at ($(current page.south west)+(\titlelocationleft,\titlelocationbottom)$)  [text width = 5in]  {\textcolor{nmfsblue1}{\nohyphens{Summary
+of U.S. Stock Assessment Workflows}}};
+}
+\end{scope}
+
+% Author
+\newcommand{\authorlocationleft}{2.3in}
+\newcommand{\authorlocationbottom}{5in}
+\newcommand{\authoralign}{left}
+
+\begin{scope}
+{%
+\fontsize{20}{24.0}\selectfont
+\node[anchor=north
+west, align=left, rotate=0] (Author1) at ($(current page.south west)+(\authorlocationleft,\authorlocationbottom)$)  [text width = 5in]  {
+\coverauthorstyle{Samantha Schiano\\}};
+}
+\end{scope}
+
+% Header
+\newcommand{\headerlocationleft}{2.3in}
+\newcommand{\headerlocationbottom}{9.8in}
+\newcommand{\headerlocationalign}{left}
+
+\begin{scope}
+{%
+\fontsize{16}{19.2}\selectfont
+ \node[anchor=north west, align=left, rotate=0] (Header1) at %
+($(current page.south west)+(\headerlocationleft,\headerlocationbottom)$)  [text width = 5in]  {\textcolor{white}{\nohyphens{NOAA
+Technical Memorandum NMFS-XXX-\#\#}}};
+}
+\end{scope}
+
+% Footer
+\newcommand{\footerlocationleft}{6in}
+\newcommand{\footerlocationbottom}{0.1\paperheight}
+\newcommand{\footerlocationalign}{left}
+
+\begin{scope}
+{%
+\fontsize{8}{9.6}\selectfont
+ \node[anchor=north west, align=left, rotate=0] (Footer1) at %
+($(current page.south west)+(\footerlocationleft,\footerlocationbottom)$)  [text width = 2.5in]  {{\nohyphens{U.S.
+DEPARTMENT OF COMMERCE\\
+\strut \\
+National Oceanic and Atmospheric Administration\\
+National Marine Fisheries Service\\
+Northwest Fisheries Science Center}}};
+}
+\end{scope}
+
+% Date
+\newcommand{\datelocationleft}{6in}
+\newcommand{\datelocationbottom}{2in}
+\newcommand{\datelocationalign}{left}
+
+\begin{scope}
+{%
+\fontsize{20}{24.0}\selectfont
+ \node[anchor=north west, align=left, rotate=0] (Date1) at %
+($(current page.south west)+(\datelocationleft,\datelocationbottom)$)  [text width = 2.5in]  {{\nohyphens{January
+2023}}};
+}
+\end{scope}
+
+\end{tikzpicture}
+\clearpage
+\restoregeometry
+%%% TITLE PAGE START
+
+% Set up alignment commands
+%Page
+\newcommand{\titlepagepagealign}{
+\ifthenelse{\equal{left}{right}}{\raggedleft}{}
+\ifthenelse{\equal{left}{center}}{\centering}{}
+\ifthenelse{\equal{left}{left}}{\raggedright}{}
+}
+%% Titles
+\newcommand{\titlepagetitlealign}{
+\ifthenelse{\equal{left}{right}}{\raggedleft}{}
+\ifthenelse{\equal{left}{center}}{\centering}{}
+\ifthenelse{\equal{left}{left}}{\raggedright}{}
+\ifthenelse{\equal{left}{spread}}{\makebox[\linewidth][s]}{}
+}
+
+
+\newcommand{\titleandsubtitle}{
+% Title and subtitle
+{\fontsize{30}{36.0}\selectfont
+\textcolor{nmfsblue1}{\bfseries{\nohyphens{Summary of U.S. Stock
+Assessment Workflows}}}\par
+}%
+
+\vspace{\betweentitlesubtitle}
+{
+{\textit{\nohyphens{Tools, Templates, and other Resources}}}\par
+}}
+\newcommand{\titlepagetitleblock}{
+\titleandsubtitle
+}
+
+\newcommand{\authorstyle}[1]{{\fontsize{20}{24.0}\selectfont
+#1}}
+
+\newcommand{\affiliationstyle}[1]{{#1}}
+
+\newcommand{\titlepageauthorblock}{
+{\authorstyle{\nohyphens{Samantha Schiano}{\textsuperscript{1}}}}}
+
+\newcommand{\titlepageaffiliationblock}{
+\hangindent=1em
+\hangafter=1
+{\affiliationstyle{
+{1}.~ECS Federal in Support of,~NOAA Fisheries Office of Science and
+Technology,~1315 East West HighwaySilver Spring, MD 20910
+
+
+\vspace{1\baselineskip} 
+}}
+}
+\newcommand{\headerstyled}{%
+{}
+}
+\newcommand{\footerstyled}{%
+{}
+}
+\newcommand{\datestyled}{%
+{2024-04-01}
+}
+
+
+\newcommand{\titlepageheaderblock}{\headerstyled}
+
+\newcommand{\titlepagefooterblock}{
+\footerstyled
+}
+
+\newcommand{\titlepagedateblock}{
+\datestyled
+}
+
+%set up blocks so user can specify order
+\newcommand{\titleblock}{\newlength{\betweentitlesubtitle}
+\setlength{\betweentitlesubtitle}{1pt}
+{\titlepagetitlealign
+
+{\titlepagetitleblock}
+}
+
+\vspace{4\baselineskip}
+}
+
+\newcommand{\authorblock}{{\titlepageauthorblock}
+
+\vspace{2\baselineskip}
+}
+
+\newcommand{\affiliationblock}{{\titlepageaffiliationblock}
+
+\vspace{2\baselineskip}
+}
+
+\newcommand{\logoblock}{}
+
+\newcommand{\footerblock}{}
+
+\newcommand{\dateblock}{{\titlepagedateblock}
+
+\vspace{0pt}
+}
+
+\newcommand{\headerblock}{}
+\newgeometry{top=3in,bottom=1in,right=1in,left=1.75in}
+% background image
+\newlength{\bgimagesize}
+\setlength{\bgimagesize}{0.75\paperwidth}
+\LENGTHDIVIDE{\bgimagesize}{\paperwidth}{\theRatio} % from calculator pkg
+\ThisULCornerWallPaper{\theRatio}{images/corner-image.png}
+
+\thispagestyle{empty} % no page numbers on titlepages
+
+
+\newcommand{\vrulecode}{\rule{\vrulewidth}{\textheight}}
+\newlength{\vrulewidth}
+\setlength{\vrulewidth}{0pt}
+\newlength{\B}
+\setlength{\B}{\ifdim\vrulewidth > 0pt 0.05\textwidth\else 0pt\fi}
+\newlength{\minipagewidth}
+\ifthenelse{\equal{left}{left} \OR \equal{left}{right} }
+{% True case
+\setlength{\minipagewidth}{\textwidth - \vrulewidth - \B - 0.1\textwidth}
+}{
+\setlength{\minipagewidth}{\textwidth - 2\vrulewidth - 2\B - 0.1\textwidth}
+}
+\ifthenelse{\equal{left}{left} \OR \equal{left}{leftright}}
+{% True case
+\raggedleft % needed for the minipage to work
+\vrulecode
+\hspace{\B}
+}{%
+\raggedright % else it is right only and width is not 0
+}
+% [position of box][box height][inner position]{width}
+% [s] means stretch out vertically; assuming there is a vfill
+\begin{minipage}[b][\textheight][s]{\minipagewidth}
+\titlepagepagealign
+\headerblock
+
+\titleblock
+
+\authorblock
+
+\affiliationblock
+
+\vfill
+
+\logoblock
+
+\footerblock
+\par
+
+\end{minipage}\ifthenelse{\equal{left}{right} \OR \equal{left}{leftright} }{
+\hspace{\B}
+\vrulecode}{}
+\clearpage
+\restoregeometry
+%%% TITLE PAGE END
+\end{titlepage}
+\setcounter{page}{1}
+\end{frontmatter}
+
+%%%%% end titlepage extension code
+
+\renewcommand*\contentsname{Table of contents}
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\listoffigures
+\listoftables
+\mainmatter
+\bookmarksetup{startatroot}
+
+\chapter*{Citation}\label{citation}
+\addcontentsline{toc}{chapter}{Citation}
+
+\markboth{Citation}{Citation}
+
+Schiano, S. 2024. Summary of U.S. Stock Assessment Workflows: Tools and
+Templates. NOAA Fisheries Office of Science and Technology.
+
+\bookmarksetup{startatroot}
+
+\chapter{Summary}\label{summary}
+
+Developing and producing a stock assessment report requires a
+considerable amount of data consolidation, analysis, and research.
+Reports can range from 10 pages to well over 300, but the goal of the
+process remains to provide management advice with the current and
+projected status of the stock, catches, and other important parameters
+to ensure its sustainability. There have been many efforts done to
+improve the reproducibility of workflows and reduce time it takes to
+produce these reports. So far, improvements and efforts have ranged
+considerably by region of the U.S. Specifically, each of the seven
+regional fishery science centers across the U.S. have their own
+workflows to assess a stock and produce its report. Many of these
+workflows are guided by requirements from fishery management councils
+and other involved managing bodies that utilize these reports to
+delegate fishery regulations.
+
+Workflows across the country not only range from region to region, but
+from scientist to scientist. There is no current standardized or
+accepted best practice for producing a stock assessment report. Some
+centers rely on the use of latex, a common software to produce documents
+with in-text calculations, while others utilize more recently developed
+programs like Rmarkdown and quarto, which both use latex as a basis for
+their production. Others utilize the capacity of Microsoft word which
+restricts the reproducibility of a report as well as increases work time
+since figures, tables, and other associated resources must be compiled
+outside of the word document.
+
+\textbf{Description of interaction and list of fishery management
+councils across the US}
+
+\bookmarksetup{startatroot}
+
+\chapter{General Stock Assessment Workflow (commonalities and
+process)}\label{sec-general}
+
+\begin{itemize}
+\tightlist
+\item
+  Description of stock assessment workflows from input to bringing the
+  report to the SSC and council(s) for evaluation and adoption of formal
+  management measures resulting from recommendations
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Gather data inputs for model
+\item
+  Configure assessment model with updated data (based on assessment need
+  for that year)
+\item
+  Sensitivity runs and projections
+\item
+  Develop assessment report for SSC, councils, and/or RFMOs
+\item
+  Present assessment and recommendations to SSC and councils
+\item
+  Assessment accepted or not, create formal report for public release
+  and adoption recommendations as designated by the councils
+\end{enumerate}
+
+Identifiable issues:
+
+\begin{itemize}
+\item
+  Inconsistent naming conventions for parameters
+\item
+  Inconsistent format/no guidelines present for a U.S. assessment report
+\end{itemize}
+
+\bookmarksetup{startatroot}
+
+\chapter{Stock Assessment Models}\label{stock-assessment-models}
+
+{[}Short descriptions of commonly used stock assessment models within
+the U.S. including acknowledgement of smaller used models and FIMS for
+the future{]}
+
+\begin{itemize}
+\item
+  General use of assessment models in the workflow (self-explanatory)
+\item
+  Short descriptions of various models used in the U.S. around the
+  regions (purpose is so that the reader can understand the model when
+  it is reference in the section later)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Categorize based on assessment type rather than assessment model
+    (age-structured/catch-at-age, catch-at-length, VPA, Agg. Biomass
+    Dynamics, Index-based, data-limited)
+  \end{itemize}
+\item
+  Include link/reference to papers/repositories at end of summary for
+  reader to reference (also refer to FIT)
+\item
+  WHAM, SS, BAM, ASAP, AMAK, Bespoke, FIMS, ect
+\end{itemize}
+
+\bookmarksetup{startatroot}
+
+\chapter{Tools and Resources}\label{sec-tools}
+
+\begin{itemize}
+\tightlist
+\item
+  Tools and templates available for different models and workflows
+  (added as a list of tools in a way instead of by region since there
+  are a lot of regions that use the same tools)
+\end{itemize}
+
+\section{afscdata}\label{sec-afscdata}
+
+\section{afscassess}\label{sec-afscassess}
+
+\section{safe Report Template}\label{sec-safe}
+
+\section{r4ss}\label{sec-r4ss}
+
+\section{sa4ss - SS Report Template}\label{sec-sa4ss}
+
+\section{pfmc-assessments}\label{sec-pfmcassess}
+
+\section{ASAPplots}\label{sec-asapplots}
+
+\section{MAFSC SAFE Reports Template}\label{sec-mafscsafe}
+
+\section{SEDAR-Assessement Report Template}\label{sec-sedartemplate}
+
+\section{FishGraph}\label{sec-fishgraph}
+
+\section{ADMB2R}\label{sec-admb2r}
+
+\section{SASINF}\label{sec-sasinf}
+
+\section{SW Stock Assessment Template}\label{sec-swfsctemplate}
+
+\section{BrailleR}\label{sec-brailler}
+
+\section{SW R Process Output}\label{sec-swroutput}
+
+\section{swfscMisc}\label{sec-swfscmisc}
+
+\section{NMFSReports}\label{sec-nmfsreports}
+
+\section{NOAA Tech Memo Template}\label{sec-noaatechmemo}
+
+\section{Other Assessment Report Template
+Repositories}\label{sec-othertemplates}
+
+\bookmarksetup{startatroot}
+
+\chapter{Region Specific Workflow}\label{sec-regionworkflows}
+
+\begin{itemize}
+\item
+  Descriptions of the workflows by region and what separates them from
+  other regions
+\item
+  Advances made by this region and the tools they use
+\item
+  Particular struggles or unique operations incorporated into their
+  workflow
+\item
+  Table of resources used for their workflows
+\end{itemize}
+
+Note: assessment reports and incorporated materials are all assessment
+author based outside of their regional requirements
+
+Alternative way to reference section \hyperref[sec-safe]{safe Report
+Template} rather than Section~\ref{sec-safe} *Note doesn't work with
+html render.
+
+\section{AFSC}\label{sec-afsc}
+
+Process variations:
+
+\begin{itemize}
+\item
+  Uses afscData (Section~\ref{sec-afscdata}) for data extractions for
+  model inputs
+
+  \begin{itemize}
+  \tightlist
+  \item
+    SQL for data query
+  \end{itemize}
+\item
+  AFSCassess (Section~\ref{sec-afscassess}) for cleaning up data,
+  generating figures, and other associated processes with generating a
+  stock assessment report
+\item
+  Functions tailored to pull data/perform function for each species
+\item
+  ADMB model outputs
+\item
+  Utilizes `safe' (Section~\ref{sec-safe}) reporting template
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Automated and reproducible, large effort put into making and
+    maintaining
+  \end{itemize}
+\item
+  Formalized guidelines for reports
+\end{itemize}
+
+Largest problems:
+
+\begin{itemize}
+\item
+  Inheriting an assessment can be a challenge
+\item
+  Data structures very different in GOA v. BSAI
+\item
+  Input and output framework needs work
+\item
+  Large amount of tables and figures (potential to clog the process; is
+  this too many?)
+\end{itemize}
+
+\section{NEFSC}\label{sec-nefsc}
+
+Process variations:
+
+\begin{itemize}
+\item
+  Informal/verbal agreement for TOR guidelines for each stock
+\item
+  Standardized report template agreed upon by NOAA and the MAFMC AND
+  NEFMC (agreed on in 2017)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Short and concise to make policy decisions (mgmt track specifically)
+  \end{itemize}
+\item
+  Report template is not publicly available but all done in latex
+  (modular workflow)
+
+  \begin{itemize}
+  \item
+    Figures rendered outside (saved as png) then reference in doc
+  \item
+    Tables created into tex files and referenced as component in
+    template
+  \end{itemize}
+\item
+  Extensive work with 508 compliance
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Contractors developing package for compliance to apply to template
+  \end{itemize}
+\end{itemize}
+
+Largest problems:
+
+\begin{itemize}
+\item
+  Lots of processing variables for 508 compliance
+\item
+  Even with all the work in the compliance, there is still a large
+  effort into making it accessible (\textasciitilde2 week conversion for
+  single analyst at the center)
+\item
+  Workflow still labor intensive
+\item
+  Large barrier to use template for new users
+\item
+  Only automated for management track reports
+\end{itemize}
+
+\section{NWFSC}\label{sec-nwfsc}
+
+Process Variations:
+
+\begin{itemize}
+\item
+  Input data extractions are from an online database and state agencies
+
+  \begin{itemize}
+  \tightlist
+  \item
+    nwfscSurvey repo for west coast groundfish survey data
+  \end{itemize}
+\item
+  Use of sa4ss (maintained by scientist at NWFSC), package to make a
+  template in github
+\item
+  All figures generated using r4ss functions
+\item
+  Standardized tables
+\item
+  Scripts are specific to species
+\item
+  Use of SS in the NW led to huge developments for packages that are
+  tuned to its output such as r4ss and sa4ss
+\item
+  Process is not standardized for entire center (common among a lot of
+  centers)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Some assessment scientists create a new repo for each assessment
+  \end{itemize}
+\end{itemize}
+
+Largest Issues:
+
+\begin{itemize}
+\item
+  Reproducibility
+\item
+  Iterative process of incorporating changes to models for report
+  generation: not optomized for this part of the workflow
+\end{itemize}
+
+\section{PIFSC}\label{sec-pifsc}
+
+Process variations:
+
+\begin{itemize}
+\item
+  ``Template'' report in github (private and not modular; international)
+\item
+  No generalized workflow/process (aka each species is a little
+  different)
+\item
+  Workflow isn't specifically defined
+\item
+  Process tables and figures in R then incorporate into a word document
+  (domestic)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Reported out as a tech memo
+  \end{itemize}
+\end{itemize}
+
+Largest Issues:
+
+\begin{itemize}
+\item
+  Work with international and species complexes that make it difficult
+  to have a general reporting structure
+\item
+  Barrier to entry with quarto
+\item
+  Can't update .qmd file after changes made to word doc after render
+\item
+  Parallelization of workflows
+\end{itemize}
+
+\section{SEFSC}\label{sec-sefsc}
+
+Process Variations:
+
+\begin{itemize}
+\item
+  Follows requirements for SEDAR
+\item
+  Figures and tables at the end of the report (SEDAR requirement)
+\item
+  File system on server where data is stored
+\end{itemize}
+
+Caribbean:
+
+\begin{itemize}
+\item
+  A lot of intermediaries in the process (aka figures and tables
+  generated outside of the report)
+\item
+  Incorporated some use of Rmarkdown with a modularized template system
+\item
+  Prototype template using quarto books for SEDAR 57
+\end{itemize}
+
+Gulf of Mexico:
+
+\begin{itemize}
+\item
+  Rmarkdown template used in process (private repository on GitHub)
+\item
+  Work with SS report file and automate from there
+\item
+  Some parameters are hard coded and changed per species
+\item
+  New forked repo. for each stock assessment
+\end{itemize}
+
+South Atlantic:
+
+\begin{itemize}
+\item
+  Data is gathered as an excel file - manually converted as inputs for
+  the assessment model (potential for automation but analysts lack time)
+\item
+  Model process includes: fine tuning, diagnostics, ADMB2R
+  (Section~\ref{sec-admb2r}), FishGraph (Section~\ref{sec-fishgraph})
+\item
+  Uses latex template with tables as outside tex doc (incorporated into
+  the template) and figures produced outside of template into a folder
+  then referenced into template
+\item
+  Report not completely automated
+\item
+  Organized on a species by species case
+\item
+  Template not on github
+\item
+  Previous reports are shared with analyst who next inherits it through
+  backup drive
+\end{itemize}
+
+Largest Issues:
+
+\begin{itemize}
+\item
+  Variable answer based on region (South Atlantic v. Gulf of Mexico v.
+  Caribbean)
+\item
+  Confidentiality (large recreational base)
+\item
+  Data providers don't provide data in the same format
+\item
+  Limited to no 508 compliance (other than minimum requirements)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Highly time intensive
+  \end{itemize}
+\end{itemize}
+
+Caribbean:
+
+\begin{itemize}
+\item
+  Difficulty referencing tables and figures in Rmarkdown
+\item
+  Limited abilities and knowledge with R/quarto
+\item
+  Oftentimes updates seem to feel like benchmark assessments due to
+  requests
+\end{itemize}
+
+Gulf of Mexico:
+
+\begin{itemize}
+\item
+  Figures in regards to inputs cause most issues
+\item
+  Long, large reports
+\item
+  Steep learning curve for those not yet using markdown (all in the
+  branch have at least used the Rmarkdown template once for an
+  assessment)
+\item
+  Large data sets/data takes a while to read in
+\item
+  Cannot access others' SS output files dues to confidentiality (those
+  outside of NOAA org)
+\item
+  Projections aren't standardized
+\end{itemize}
+
+South Atlantic:
+
+\begin{itemize}
+\item
+  Process is not automated
+\item
+  Localized reporting template
+\end{itemize}
+
+\section{SWFSC}\label{sec-swfsc}
+
+Process Variations:
+
+\begin{itemize}
+\item
+  Inherited workflow from analysts
+\item
+  Use of `sa4ss' (Section~\ref{sec-sa4ss}) for workflow with some
+  modifications
+\item
+  Centralized Rmarkdown for process
+\item
+  Access to past assessments on PFMC GitHub
+\end{itemize}
+
+Largest Issues:
+
+\begin{itemize}
+\item
+  Data acquisition and handling (also troubles associated with data
+  confidentiality)
+\item
+  Tough transition for new employees due GitHub used on an
+  analyst-to-analyst bases and unclear workflow structure
+\item
+  Model versioning and changes to the report through a non-linear
+  process (common among other regions too)
+\item
+  508 compliance efforts sometimes break
+\end{itemize}
+
+Example in text reference (Clark 1993).
+
+\bookmarksetup{startatroot}
+
+\chapter{Conclusions}\label{conclusions}
+
+\begin{itemize}
+\item
+  Conclusions about how workflows operate in the U.S.
+
+  \begin{itemize}
+  \item
+    Both pros and pitfalls of current workflows
+  \item
+    Incorporating perspectives from regional scientists?
+  \end{itemize}
+\item
+  Additional hope for greater look into the inputs and pulling together
+  the entire stock assessment workflow process
+\end{itemize}
+
+\section{Future Work}\label{future-work}
+
+\begin{itemize}
+\tightlist
+\item
+  Discuss the upcoming/in development tool for automated workflows and
+  plan for the future including stock assessment modelling for the
+  future
+\end{itemize}
+
+\bookmarksetup{startatroot}
+
+\chapter*{References}\label{references}
+\addcontentsline{toc}{chapter}{References}
+
+\markboth{References}{References}
+
+\phantomsection\label{refs}
+\begin{CSLReferences}{1}{0}
+\bibitem[\citeproctext]{ref-clark1993}
+Clark, W. G. 1993. {``The Effect of Recruitment Variability on the
+Choice of a Target Level of Spawning Biomass Per Recruit.''} In, 233246.
+Alaska Sea Grant College Program
+AK{\textendash}SG{\textendash}93{\textendash}02.
+
+\end{CSLReferences}
+
+
+\backmatter
+
+\end{document}

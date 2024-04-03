@@ -7,12 +7,42 @@
   - Particular struggles or unique operations incorporated into their workflow
   
   - Table of resources used for their workflows
-
-## AFSC {#sec-afsc}
+  
+Note: assessment reports and incorporated materials are all assessment author based outside of their regional requirements
 
 Alternative way to reference section \nameref{sec-safe} rather than @sec-safe
 *Note doesn't work with html render.
 
+## AFSC {#sec-afsc}
+
+Process variations:
+
+  - Uses afscData (@sec-afscdata) for data extractions for model inputs
+  
+    - SQL for data query
+  
+  - AFSCassess (@sec-afscassess) for cleaning up data, generating figures, and other associated processes with generating a stock assessment report
+  
+  - Functions tailored to pull data/perform function for each species
+  
+  - ADMB model outputs
+  
+  - Utilizes 'safe' (@sec-safe) reporting template
+  
+    - Automated and reproducible, large effort put into making and maintaining
+    
+  - Formalized guidelines for reports
+    
+  
+Largest problems:
+
+  - Inheriting an assessment can be a challenge
+  
+  - Data structures very different in GOA v. BSAI
+  
+  - Input and output framework needs work
+  
+  - Large amount of tables and figures (potential to clog the process; is this too many?)
 
 ## NEFSC {#sec-nefsc}
 
@@ -184,16 +214,27 @@ South Atlantic:
   - Process is not automated
   
   - Localized reporting template
-  
 
 ## SWFSC {#sec-swfsc}
 
 Process Variations:
 
-  - 
+  - Inherited workflow from analysts 
+  
+  - Use of 'sa4ss' (@sec-sa4ss) for workflow with some modifications
+  
+  - Centralized Rmarkdown for process
+  
+  - Access to past assessments on PFMC GitHub
   
 Largest Issues:
 
-  - 
+  - Data acquisition and handling (also troubles associated with data confidentiality)
+  
+  - Tough transition for new employees due GitHub used on an analyst-to-analyst bases and unclear workflow structure
+  
+  - Model versioning and changes to the report through a non-linear process (common among other regions too)
+  
+  - 508 compliance efforts sometimes break
 
 Example in text reference [@clark1993].

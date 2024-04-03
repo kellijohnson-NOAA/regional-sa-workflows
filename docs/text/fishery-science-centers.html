@@ -241,9 +241,32 @@ div.csl-indent {
 <li><p>Particular struggles or unique operations incorporated into their workflow</p></li>
 <li><p>Table of resources used for their workflows</p></li>
 </ul>
+<p>Note: assessment reports and incorporated materials are all assessment author based outside of their regional requirements</p>
+<p>Alternative way to reference section rather than <a href="tool-and-resources.html#sec-safe" class="quarto-xref"><span>Section 4.3</span></a> *Note doesn’t work with html render.</p>
 <section id="sec-afsc" class="level2" data-number="5.1">
 <h2 data-number="5.1" class="anchored" data-anchor-id="sec-afsc"><span class="header-section-number">5.1</span> AFSC</h2>
-<p>Alternative way to reference section rather than <a href="tool-and-resources.html#sec-safe" class="quarto-xref"><span>Section 4.3</span></a> *Note doesn’t work with html render.</p>
+<p>Process variations:</p>
+<ul>
+<li><p>Uses afscData (<a href="tool-and-resources.html#sec-afscdata" class="quarto-xref"><span>Section 4.1</span></a>) for data extractions for model inputs</p>
+<ul>
+<li>SQL for data query</li>
+</ul></li>
+<li><p>AFSCassess (<a href="tool-and-resources.html#sec-afscassess" class="quarto-xref"><span>Section 4.2</span></a>) for cleaning up data, generating figures, and other associated processes with generating a stock assessment report</p></li>
+<li><p>Functions tailored to pull data/perform function for each species</p></li>
+<li><p>ADMB model outputs</p></li>
+<li><p>Utilizes ‘safe’ (<a href="tool-and-resources.html#sec-safe" class="quarto-xref"><span>Section 4.3</span></a>) reporting template</p>
+<ul>
+<li>Automated and reproducible, large effort put into making and maintaining</li>
+</ul></li>
+<li><p>Formalized guidelines for reports</p></li>
+</ul>
+<p>Largest problems:</p>
+<ul>
+<li><p>Inheriting an assessment can be a challenge</p></li>
+<li><p>Data structures very different in GOA v. BSAI</p></li>
+<li><p>Input and output framework needs work</p></li>
+<li><p>Large amount of tables and figures (potential to clog the process; is this too many?)</p></li>
+</ul>
 </section>
 <section id="sec-nefsc" class="level2" data-number="5.2">
 <h2 data-number="5.2" class="anchored" data-anchor-id="sec-nefsc"><span class="header-section-number">5.2</span> NEFSC</h2>
@@ -323,7 +346,7 @@ div.csl-indent {
 <ul>
 <li><p>Follows requirements for SEDAR</p></li>
 <li><p>Figures and tables at the end of the report (SEDAR requirement)</p></li>
-<li></li>
+<li><p>File system on server where data is stored</p></li>
 </ul>
 <p>Caribbean:</p>
 <ul>
@@ -332,16 +355,31 @@ div.csl-indent {
 <li><p>Prototype template using quarto books for SEDAR 57</p></li>
 </ul>
 <p>Gulf of Mexico:</p>
+<ul>
+<li><p>Rmarkdown template used in process (private repository on GitHub)</p></li>
+<li><p>Work with SS report file and automate from there</p></li>
+<li><p>Some parameters are hard coded and changed per species</p></li>
+<li><p>New forked repo. for each stock assessment</p></li>
+</ul>
 <p>South Atlantic:</p>
 <ul>
+<li><p>Data is gathered as an excel file - manually converted as inputs for the assessment model (potential for automation but analysts lack time)</p></li>
+<li><p>Model process includes: fine tuning, diagnostics, ADMB2R (<a href="tool-and-resources.html#sec-admb2r" class="quarto-xref"><span>Section 4.11</span></a>), FishGraph (<a href="tool-and-resources.html#sec-fishgraph" class="quarto-xref"><span>Section 4.10</span></a>)</p></li>
 <li><p>Uses latex template with tables as outside tex doc (incorporated into the template) and figures produced outside of template into a folder then referenced into template</p></li>
+<li><p>Report not completely automated</p></li>
 <li><p>Organized on a species by species case</p></li>
 <li><p>Template not on github</p></li>
+<li><p>Previous reports are shared with analyst who next inherits it through backup drive</p></li>
 </ul>
 <p>Largest Issues:</p>
 <ul>
 <li><p>Variable answer based on region (South Atlantic v. Gulf of Mexico v. Caribbean)</p></li>
 <li><p>Confidentiality (large recreational base)</p></li>
+<li><p>Data providers don’t provide data in the same format</p></li>
+<li><p>Limited to no 508 compliance (other than minimum requirements)</p>
+<ul>
+<li>Highly time intensive</li>
+</ul></li>
 </ul>
 <p>Caribbean:</p>
 <ul>
@@ -351,22 +389,34 @@ div.csl-indent {
 </ul>
 <p>Gulf of Mexico:</p>
 <ul>
-<li></li>
+<li><p>Figures in regards to inputs cause most issues</p></li>
+<li><p>Long, large reports</p></li>
+<li><p>Steep learning curve for those not yet using markdown (all in the branch have at least used the Rmarkdown template once for an assessment)</p></li>
+<li><p>Large data sets/data takes a while to read in</p></li>
+<li><p>Cannot access others’ SS output files dues to confidentiality (those outside of NOAA org)</p></li>
+<li><p>Projections aren’t standardized</p></li>
 </ul>
 <p>South Atlantic:</p>
 <ul>
-<li></li>
+<li><p>Process is not automated</p></li>
+<li><p>Localized reporting template</p></li>
 </ul>
 </section>
 <section id="sec-swfsc" class="level2" data-number="5.6">
 <h2 data-number="5.6" class="anchored" data-anchor-id="sec-swfsc"><span class="header-section-number">5.6</span> SWFSC</h2>
 <p>Process Variations:</p>
 <ul>
-<li></li>
+<li><p>Inherited workflow from analysts</p></li>
+<li><p>Use of ‘sa4ss’ (<a href="tool-and-resources.html#sec-sa4ss" class="quarto-xref"><span>Section 4.5</span></a>) for workflow with some modifications</p></li>
+<li><p>Centralized Rmarkdown for process</p></li>
+<li><p>Access to past assessments on PFMC GitHub</p></li>
 </ul>
 <p>Largest Issues:</p>
 <ul>
-<li></li>
+<li><p>Data acquisition and handling (also troubles associated with data confidentiality)</p></li>
+<li><p>Tough transition for new employees due GitHub used on an analyst-to-analyst bases and unclear workflow structure</p></li>
+<li><p>Model versioning and changes to the report through a non-linear process (common among other regions too)</p></li>
+<li><p>508 compliance efforts sometimes break</p></li>
 </ul>
 <p>Example in text reference <span class="citation" data-cites="clark1993">(<a href="references.html#ref-clark1993" role="doc-biblioref">Clark 1993</a>)</span>.</p>
 

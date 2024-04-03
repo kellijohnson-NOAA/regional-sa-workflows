@@ -11,7 +11,7 @@ book:
   - name: Samantha Schiano
     affiliations:
       - id: ecs
-        name: ECS Federal in Support of 
+        name: ECS Federal in Support of #NOAA Fisheries Office of Science and Technology
         department: NOAA Fisheries Office of Science and Technology
         address: 
           - 1315 East West Highway
@@ -52,10 +52,10 @@ format:
   titlepage-pdf:
     documentclass: scrbook
     classoption: ["oneside", "open=any"]
-    # titlepage: "plain"
+    titlepage: "plain"
     keep-tex: true
 
-filters: 
+filters:
   - name_crossref.lua
   - titlepage-theme.lua
   - coverpage-theme.lua

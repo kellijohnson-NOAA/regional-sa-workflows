@@ -51,24 +51,26 @@ format:
       header-width: 5in
       header-bottom: 9.8in
       header-color: "white"
-      title-fontsize: 50
+      title-fontsize: 30
       title-left: 2.3in
-      title-width: 5in
-      title-bottom: 7in
+      title-width: 6in
+      title-bottom: 7in #inches from the bottom position
       title-color: "nmfsblue1"
       author-fontsize: 20
       author-left: 2.3in
       author-width: 5in
       author-bottom: 5in
-      footer-style: "plain"
+      footer-style: "colorbox"
+      footer-colorbox-fill: "nmfsblue1"
       footer-fontsize: 8
       footer-left: 6in
       footer-width: 2.5in
-      date-style: "plain"
+      date-style: "colorbox"
+      date-colorbox-fill: "nmfsblue1"
       date-fontsize: 20
       date-left: 6in
       date-width: 2.5in
-      date-bottom: 2in
+      date-align: "center"
     include-in-header:
       text: |
         \usepackage[default]{opensans}
