@@ -1,6 +1,8 @@
-# NOAA Quarto Tech Memo
+# NOAA Fisheries Stock Assessment Workflows
 
-This is a template repo to create report with a NOAA tech memo format in pdf, html, or docx format.
+This is a repo that contains the draft for summarizing regional stock assessment workflows for assessment scientists at NOAA Fisheries. The goal of this memo is to gather information on how stock assessment scientists go about their work from gathering input data, exploring the model, and creating reports. Each region follows their own procedures and standards and communicaiton among centers about these resources are limited. This is an effort to share workflows to improve each regional center and increase throughput as well as help scope out development of a standardized workflow for assessment reports in order to create a more uniform and improved workflow. 
+
+Please see [this page](https://schiano-noaa.github.io/regional-sa-workflows/) for the latest version of the memo.
 
 ## R package dependencies
 
