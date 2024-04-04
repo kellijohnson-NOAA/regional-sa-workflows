@@ -44,167 +44,27 @@
     "href": "text/tool-and-resources.html",
     "title": "4  Tools and Resources",
     "section": "",
-    "text": "4.1 afscdata",
+    "text": "4.1 Tools",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tools and Resources</span>"
     ]
   },
   {
-    "objectID": "text/tool-and-resources.html#sec-afscassess",
-    "href": "text/tool-and-resources.html#sec-afscassess",
+    "objectID": "text/tool-and-resources.html#sec-rtools",
+    "href": "text/tool-and-resources.html#sec-rtools",
     "title": "4  Tools and Resources",
-    "section": "4.2 afscassess",
-    "text": "4.2 afscassess",
+    "section": "",
+    "text": "4.1.1 afscdata\n\n\n4.1.2 afscassess\n\n\n4.1.3 r4ss\n\n\n4.1.4 ASAPplots\n\n\n4.1.5 FishGraph\n\n\n4.1.6 ADMB2R\n\n\n4.1.7 SASINF\n\n\n4.1.8 BrailleR\n\n\n4.1.9 SW R Process Output\n\n\n4.1.10 swfscMisc",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tools and Resources</span>"
     ]
   },
   {
-    "objectID": "text/tool-and-resources.html#sec-safe",
-    "href": "text/tool-and-resources.html#sec-safe",
+    "objectID": "text/tool-and-resources.html#sec-templates",
+    "href": "text/tool-and-resources.html#sec-templates",
     "title": "4  Tools and Resources",
-    "section": "4.3 safe Report Template",
-    "text": "4.3 safe Report Template",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tools and Resources</span>"
-    ]
-  },
-  {
-    "objectID": "text/tool-and-resources.html#sec-r4ss",
-    "href": "text/tool-and-resources.html#sec-r4ss",
-    "title": "4  Tools and Resources",
-    "section": "4.4 r4ss",
-    "text": "4.4 r4ss",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tools and Resources</span>"
-    ]
-  },
-  {
-    "objectID": "text/tool-and-resources.html#sec-sa4ss",
-    "href": "text/tool-and-resources.html#sec-sa4ss",
-    "title": "4  Tools and Resources",
-    "section": "4.5 sa4ss - SS Report Template",
-    "text": "4.5 sa4ss - SS Report Template",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tools and Resources</span>"
-    ]
-  },
-  {
-    "objectID": "text/tool-and-resources.html#sec-pfmcassess",
-    "href": "text/tool-and-resources.html#sec-pfmcassess",
-    "title": "4  Tools and Resources",
-    "section": "4.6 pfmc-assessments",
-    "text": "4.6 pfmc-assessments",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tools and Resources</span>"
-    ]
-  },
-  {
-    "objectID": "text/tool-and-resources.html#sec-asapplots",
-    "href": "text/tool-and-resources.html#sec-asapplots",
-    "title": "4  Tools and Resources",
-    "section": "4.7 ASAPplots",
-    "text": "4.7 ASAPplots",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tools and Resources</span>"
-    ]
-  },
-  {
-    "objectID": "text/tool-and-resources.html#sec-mafscsafe",
-    "href": "text/tool-and-resources.html#sec-mafscsafe",
-    "title": "4  Tools and Resources",
-    "section": "4.8 MAFSC SAFE Reports Template",
-    "text": "4.8 MAFSC SAFE Reports Template",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tools and Resources</span>"
-    ]
-  },
-  {
-    "objectID": "text/tool-and-resources.html#sec-sedartemplate",
-    "href": "text/tool-and-resources.html#sec-sedartemplate",
-    "title": "4  Tools and Resources",
-    "section": "4.9 SEDAR-Assessement Report Template",
-    "text": "4.9 SEDAR-Assessement Report Template",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tools and Resources</span>"
-    ]
-  },
-  {
-    "objectID": "text/tool-and-resources.html#sec-fishgraph",
-    "href": "text/tool-and-resources.html#sec-fishgraph",
-    "title": "4  Tools and Resources",
-    "section": "4.10 FishGraph",
-    "text": "4.10 FishGraph",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tools and Resources</span>"
-    ]
-  },
-  {
-    "objectID": "text/tool-and-resources.html#sec-admb2r",
-    "href": "text/tool-and-resources.html#sec-admb2r",
-    "title": "4  Tools and Resources",
-    "section": "4.11 ADMB2R",
-    "text": "4.11 ADMB2R",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tools and Resources</span>"
-    ]
-  },
-  {
-    "objectID": "text/tool-and-resources.html#sec-sasinf",
-    "href": "text/tool-and-resources.html#sec-sasinf",
-    "title": "4  Tools and Resources",
-    "section": "4.12 SASINF",
-    "text": "4.12 SASINF",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tools and Resources</span>"
-    ]
-  },
-  {
-    "objectID": "text/tool-and-resources.html#sec-swfsctemplate",
-    "href": "text/tool-and-resources.html#sec-swfsctemplate",
-    "title": "4  Tools and Resources",
-    "section": "4.13 SW Stock Assessment Template",
-    "text": "4.13 SW Stock Assessment Template",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tools and Resources</span>"
-    ]
-  },
-  {
-    "objectID": "text/tool-and-resources.html#sec-brailler",
-    "href": "text/tool-and-resources.html#sec-brailler",
-    "title": "4  Tools and Resources",
-    "section": "4.14 BrailleR",
-    "text": "4.14 BrailleR",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tools and Resources</span>"
-    ]
-  },
-  {
-    "objectID": "text/tool-and-resources.html#sec-swroutput",
-    "href": "text/tool-and-resources.html#sec-swroutput",
-    "title": "4  Tools and Resources",
-    "section": "4.15 SW R Process Output",
-    "text": "4.15 SW R Process Output",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tools and Resources</span>"
-    ]
-  },
-  {
-    "objectID": "text/tool-and-resources.html#sec-swfscmisc",
-    "href": "text/tool-and-resources.html#sec-swfscmisc",
-    "title": "4  Tools and Resources",
-    "section": "4.16 swfscMisc",
-    "text": "4.16 swfscMisc",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tools and Resources</span>"
-    ]
-  },
-  {
-    "objectID": "text/tool-and-resources.html#sec-nmfsreports",
-    "href": "text/tool-and-resources.html#sec-nmfsreports",
-    "title": "4  Tools and Resources",
-    "section": "4.17 NMFSReports",
-    "text": "4.17 NMFSReports",
+    "section": "4.2 Templates",
+    "text": "4.2 Templates\n\n4.2.1 safe Report Template\n\n\n4.2.2 sa4ss - SS Report Template\n\n\n4.2.3 MAFSC SAFE Reports Template\n\n\n4.2.4 SEDAR-Assessement Report Template\n\n\n4.2.5 SW Stock Assessment Template\n\n\n4.2.6 NMFSReports",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tools and Resources</span>"
     ]
@@ -213,18 +73,18 @@
     "objectID": "text/tool-and-resources.html#sec-noaatechmemo",
     "href": "text/tool-and-resources.html#sec-noaatechmemo",
     "title": "4  Tools and Resources",
-    "section": "4.18 NOAA Tech Memo Template",
-    "text": "4.18 NOAA Tech Memo Template",
+    "section": "4.3 NOAA Tech Memo Template",
+    "text": "4.3 NOAA Tech Memo Template",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tools and Resources</span>"
     ]
   },
   {
-    "objectID": "text/tool-and-resources.html#sec-othertemplates",
-    "href": "text/tool-and-resources.html#sec-othertemplates",
+    "objectID": "text/tool-and-resources.html#sec-resources",
+    "href": "text/tool-and-resources.html#sec-resources",
     "title": "4  Tools and Resources",
-    "section": "4.19 Other Assessment Report Template Repositories",
-    "text": "4.19 Other Assessment Report Template Repositories",
+    "section": "4.4 Resources",
+    "text": "4.4 Resources\n\n4.4.1 pfmc-assessments",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tools and Resources</span>"
     ]
@@ -244,7 +104,7 @@
     "href": "text/fishery-science-centers.html#sec-afsc",
     "title": "5  Region Specific Workflow",
     "section": "",
-    "text": "Uses afscData (Section 4.1) for data extractions for model inputs\n\nSQL for data query\n\nAFSCassess (Section 4.2) for cleaning up data, generating figures, and other associated processes with generating a stock assessment report\nFunctions tailored to pull data/perform function for each species\nADMB model outputs\nUtilizes ‘safe’ (Section 4.3) reporting template\n\nAutomated and reproducible, large effort put into making and maintaining\n\nFormalized guidelines for reports\n\n\n\nInheriting an assessment can be a challenge\nData structures very different in GOA v. BSAI\nInput and output framework needs work\nLarge amount of tables and figures (potential to clog the process; is this too many?)",
+    "text": "Uses afscData (Section 4.1.1) for data extractions for model inputs\n\nSQL for data query\n\nAFSCassess (Section 4.1.2) for cleaning up data, generating figures, and other associated processes with generating a stock assessment report\nFunctions tailored to pull data/perform function for each species\nADMB model outputs\nUtilizes ‘safe’ (Section 4.2.1) reporting template\n\nAutomated and reproducible, large effort put into making and maintaining\n\nFormalized guidelines for reports\n\n\n\nInheriting an assessment can be a challenge\nData structures very different in GOA v. BSAI\nInput and output framework needs work\nLarge amount of tables and figures (potential to clog the process; is this too many?)",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Region Specific Workflow</span>"
     ]
@@ -284,7 +144,7 @@
     "href": "text/fishery-science-centers.html#sec-sefsc",
     "title": "5  Region Specific Workflow",
     "section": "5.5 SEFSC",
-    "text": "5.5 SEFSC\nProcess Variations:\n\nFollows requirements for SEDAR\nFigures and tables at the end of the report (SEDAR requirement)\nFile system on server where data is stored\n\nCaribbean:\n\nA lot of intermediaries in the process (aka figures and tables generated outside of the report)\nIncorporated some use of Rmarkdown with a modularized template system\nPrototype template using quarto books for SEDAR 57\n\nGulf of Mexico:\n\nRmarkdown template used in process (private repository on GitHub)\nWork with SS report file and automate from there\nSome parameters are hard coded and changed per species\nNew forked repo. for each stock assessment\n\nSouth Atlantic:\n\nData is gathered as an excel file - manually converted as inputs for the assessment model (potential for automation but analysts lack time)\nModel process includes: fine tuning, diagnostics, ADMB2R (Section 4.11), FishGraph (Section 4.10)\nUses latex template with tables as outside tex doc (incorporated into the template) and figures produced outside of template into a folder then referenced into template\nReport not completely automated\nOrganized on a species by species case\nTemplate not on github\nPrevious reports are shared with analyst who next inherits it through backup drive\n\nLargest Issues:\n\nVariable answer based on region (South Atlantic v. Gulf of Mexico v. Caribbean)\nConfidentiality (large recreational base)\nData providers don’t provide data in the same format\nLimited to no 508 compliance (other than minimum requirements)\n\nHighly time intensive\n\n\nCaribbean:\n\nDifficulty referencing tables and figures in Rmarkdown\nLimited abilities and knowledge with R/quarto\nOftentimes updates seem to feel like benchmark assessments due to requests\n\nGulf of Mexico:\n\nFigures in regards to inputs cause most issues\nLong, large reports\nSteep learning curve for those not yet using markdown (all in the branch have at least used the Rmarkdown template once for an assessment)\nLarge data sets/data takes a while to read in\nCannot access others’ SS output files dues to confidentiality (those outside of NOAA org)\nProjections aren’t standardized\n\nSouth Atlantic:\n\nProcess is not automated\nLocalized reporting template",
+    "text": "5.5 SEFSC\nProcess Variations:\n\nFollows requirements for SEDAR\nFigures and tables at the end of the report (SEDAR requirement)\nFile system on server where data is stored\n\nCaribbean:\n\nA lot of intermediaries in the process (aka figures and tables generated outside of the report)\nIncorporated some use of Rmarkdown with a modularized template system\nPrototype template using quarto books for SEDAR 57\n\nGulf of Mexico:\n\nRmarkdown template used in process (private repository on GitHub)\nWork with SS report file and automate from there\nSome parameters are hard coded and changed per species\nNew forked repo. for each stock assessment\n\nSouth Atlantic:\n\nData is gathered as an excel file - manually converted as inputs for the assessment model (potential for automation but analysts lack time)\nModel process includes: fine tuning, diagnostics, ADMB2R (Section 4.1.6), FishGraph (Section 4.1.5)\nUses latex template with tables as outside tex doc (incorporated into the template) and figures produced outside of template into a folder then referenced into template\nReport not completely automated\nOrganized on a species by species case\nTemplate not on github\nPrevious reports are shared with analyst who next inherits it through backup drive\n\nLargest Issues:\n\nVariable answer based on region (South Atlantic v. Gulf of Mexico v. Caribbean)\nConfidentiality (large recreational base)\nData providers don’t provide data in the same format\nLimited to no 508 compliance (other than minimum requirements)\n\nHighly time intensive\n\n\nCaribbean:\n\nDifficulty referencing tables and figures in Rmarkdown\nLimited abilities and knowledge with R/quarto\nOftentimes updates seem to feel like benchmark assessments due to requests\n\nGulf of Mexico:\n\nFigures in regards to inputs cause most issues\nLong, large reports\nSteep learning curve for those not yet using markdown (all in the branch have at least used the Rmarkdown template once for an assessment)\nLarge data sets/data takes a while to read in\nCannot access others’ SS output files dues to confidentiality (those outside of NOAA org)\nProjections aren’t standardized\n\nSouth Atlantic:\n\nProcess is not automated\nLocalized reporting template",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Region Specific Workflow</span>"
     ]
@@ -294,7 +154,7 @@
     "href": "text/fishery-science-centers.html#sec-swfsc",
     "title": "5  Region Specific Workflow",
     "section": "5.6 SWFSC",
-    "text": "5.6 SWFSC\nProcess Variations:\n\nInherited workflow from analysts\nUse of ‘sa4ss’ (Section 4.5) for workflow with some modifications\nCentralized Rmarkdown for process\nAccess to past assessments on PFMC GitHub\n\nLargest Issues:\n\nData acquisition and handling (also troubles associated with data confidentiality)\nTough transition for new employees due GitHub used on an analyst-to-analyst bases and unclear workflow structure\nModel versioning and changes to the report through a non-linear process (common among other regions too)\n508 compliance efforts sometimes break\n\nExample in text reference (Clark 1993).\n\n\n\n\nClark, W. G. 1993. “The Effect of Recruitment Variability on the Choice of a Target Level of Spawning Biomass Per Recruit.” In, 233246. Alaska Sea Grant College Program AKSG9302.",
+    "text": "5.6 SWFSC\nProcess Variations:\n\nInherited workflow from analysts\nUse of ‘sa4ss’ (Section 4.2.2) for workflow with some modifications\nCentralized Rmarkdown for process\nAccess to past assessments on PFMC GitHub\n\nLargest Issues:\n\nData acquisition and handling (also troubles associated with data confidentiality)\nTough transition for new employees due GitHub used on an analyst-to-analyst bases and unclear workflow structure\nModel versioning and changes to the report through a non-linear process (common among other regions too)\n508 compliance efforts sometimes break\n\nExample in text reference (Clark 1993).\n\n\n\n\nClark, W. G. 1993. “The Effect of Recruitment Variability on the Choice of a Target Level of Spawning Biomass Per Recruit.” In, 233246. Alaska Sea Grant College Program AKSG9302.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Region Specific Workflow</span>"
     ]
