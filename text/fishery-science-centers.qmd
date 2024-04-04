@@ -2,12 +2,15 @@
 
   - Descriptions of the workflows by region and what separates them from other regions
   
+    - Incorporate regional specific TORs or how TORs are developed if species specific and how they guide region workflows
+  
   - Advances made by this region and the tools they use
   
   - Particular struggles or unique operations incorporated into their workflow
   
   - Table of resources used for their workflows
   
+
 Note: assessment reports and incorporated materials are all assessment author based outside of their regional requirements
 
 Alternative way to reference section \nameref{sec-safe} rather than @sec-safe
