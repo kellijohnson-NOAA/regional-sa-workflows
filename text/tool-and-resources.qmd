@@ -2,42 +2,51 @@
 
   - Tools and templates available for different models and workflows (added as a list of tools in a way instead of by region since there are a lot of regions that use the same tools)
   
-## afscdata {#sec-afscdata}
+## Tools {#sec-rtools}
 
-## afscassess {#sec-afscassess}
+### afscdata {#sec-afscdata}
 
-## safe Report Template {#sec-safe}
+### afscassess {#sec-afscassess}
 
-## r4ss {#sec-r4ss}
+### r4ss {#sec-r4ss}
 
-## sa4ss - SS Report Template {#sec-sa4ss}
+### ASAPplots {#sec-asapplots}
 
-## pfmc-assessments {#sec-pfmcassess}
+### FishGraph {#sec-fishgraph}
 
-## ASAPplots {#sec-asapplots}
+### ADMB2R {#sec-admb2r}
 
-## MAFSC SAFE Reports Template {#sec-mafscsafe}
+### SASINF {#sec-sasinf}
 
-## SEDAR-Assessement Report Template {#sec-sedartemplate}
+### BrailleR {#sec-brailler}
 
-## FishGraph {#sec-fishgraph}
+### SW R Process Output {#sec-swroutput}
 
-## ADMB2R {#sec-admb2r}
+### swfscMisc {#sec-swfscmisc}
 
-## SASINF {#sec-sasinf}
 
-## SW Stock Assessment Template {#sec-swfsctemplate}
 
-## BrailleR {#sec-brailler}
+## Templates {#sec-templates}
 
-## SW R Process Output {#sec-swroutput}
+### safe Report Template {#sec-safe}
 
-## swfscMisc {#sec-swfscmisc}
+### sa4ss - SS Report Template {#sec-sa4ss}
 
-## NMFSReports {#sec-nmfsreports}
+### MAFSC SAFE Reports Template {#sec-mafscsafe}
+
+### SEDAR-Assessement Report Template {#sec-sedartemplate}
+
+### SW Stock Assessment Template {#sec-swfsctemplate}
+
+### NMFSReports {#sec-nmfsreports}
 
 ## NOAA Tech Memo Template {#sec-noaatechmemo}
 
-## Other Assessment Report Template Repositories {#sec-othertemplates}
+
+## Resources {#sec-resources}
+
+### pfmc-assessments {#sec-pfmcassess}
+
+
 
 
