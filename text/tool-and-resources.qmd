@@ -30,7 +30,7 @@
 
 ### safe Report Template {#sec-safe}
 
-### sa4ss - SS Report Template {#sec-sa4ss}
+### sa4ss - SS3 Report Template {#sec-sa4ss}
 
 ### MAFSC SAFE Reports Template {#sec-mafscsafe}
 

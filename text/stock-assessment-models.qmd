@@ -10,4 +10,4 @@
   
   - Include link/reference to papers/repositories at end of summary for reader to reference (also refer to FIT)
 
-  - WHAM, SS, BAM, ASAP, AMAK, Bespoke, FIMS, ect
+  - WHAM, SS3, BAM, ASAP, AMAK, Bespoke, FIMS, ect

@@ -95,7 +95,7 @@ Process Variations:
   
   - Scripts are specific to species
   
-  - Use of SS in the NW led to huge developments for packages that are tuned to its output such as r4ss and sa4ss
+  - Use of SS3 in the NW led to huge developments for packages that are tuned to its output such as r4ss and sa4ss
   
   - Process is not standardized for entire center (common among a lot of centers)
   
@@ -154,7 +154,7 @@ Gulf of Mexico:
 
   - Rmarkdown template used in process (private repository on GitHub)
   
-  - Work with SS report file and automate from there
+  - Work with SS3 report file and automate from there
   
   - Some parameters are hard coded and changed per species
   
@@ -208,7 +208,7 @@ Gulf of Mexico:
   
   - Large data sets/data takes a while to read in
   
-  - Cannot access others' SS output files dues to confidentiality (those outside of NOAA org)
+  - Cannot access others' SS3 output files dues to confidentiality (those outside of NOAA org)
   
   - Projections aren't standardized
   
